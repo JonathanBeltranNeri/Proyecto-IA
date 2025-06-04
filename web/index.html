@@ -88,7 +88,7 @@
         <table class="table-auto w-full border-collapse">
           <thead>
             <tr class="bg-gray-100">
-              <th class="px-4 py-2">#</th>
+              <th class="px-4 py-2">Fecha</th>
               <th class="px-4 py-2">Precio Real</th>
               <th class="px-4 py-2">Precio Predicho</th>
               <th class="px-4 py-2">Señal</th>
@@ -103,88 +103,97 @@
   </main>
 
   <script>
-    lucide.createIcons();
+  lucide.createIcons();
 
-    const select = document.getElementById('empresaSelect');
-    const ctx = document.getElementById('graficaPrediccion').getContext('2d');
-    let chart;
+  const select = document.getElementById('empresaSelect');
+  const ctx = document.getElementById('graficaPrediccion').getContext('2d');
+  let chart;
 
-    function cargarDatos(empresa) {
-      fetch(`predicciones_${empresa}.json`)
-        .then(res => res.json())
-        .then(data => {
-          const labels = data.map(d => d.dia);
-          const preciosReales = data.map(d => d.precio_real);
-          const predichos = data.map(d => d.precio_predicho);
-          const senales = data.map(d => d.senal);
+  function cargarDatos(empresa) {
+    fetch(`predicciones_${empresa}.json`)
+  .then(res => res.json())
+  .then(data => {
+    const hoy = new Date();
+    hoy.setHours(0, 0, 0, 0);
 
-          if (chart) chart.destroy();
+    const datosFiltrados = data.filter(d => {
+      const fecha = new Date(d.fecha);
+      fecha.setHours(0, 0, 0, 0);
+      return fecha >= hoy;
+    }).slice(0, 11); // Solo hoy y 10 días más
 
-          chart = new Chart(ctx, {
-            type: 'line',
-            data: {
-              labels: labels,
-              datasets: [
-                {
-                  label: 'Precio Real',
-                  data: preciosReales,
-                  borderColor: 'rgb(59, 130, 246)',
-                  fill: false,
-                  tension: 0.3
-                },
-                {
-                  label: 'Precio Predicho',
-                  data: predichos,
-                  borderColor: 'rgb(234, 88, 12)',
-                  fill: false,
-                  tension: 0.3
-                }
-              ]
-            },
-            options: {
-              responsive: true,
-              scales: {
-                y: { beginAtZero: false }
-              },
-              plugins: {
-                legend: {
-                  display: false
-                }
-              }
-            }
-          });
+    const labels = datosFiltrados.map(d => d.fecha);
+    const preciosReales = datosFiltrados.map(d => d.precio_real);
+    const predichos = datosFiltrados.map(d => d.precio_predicho);
+    const senales = datosFiltrados.map(d => d.senal);
 
-          const tbody = document.getElementById('tablaSenales');
-          tbody.innerHTML = '';
-          data.forEach((d, i) => {
-            const tr = document.createElement('tr');
-            tr.innerHTML = `
-              <td class="border px-4 py-2">${i + 1}</td>
-              <td class="border px-4 py-2">${d.precio_real.toFixed(2)}</td>
-              <td class="border px-4 py-2">${d.precio_predicho.toFixed(2)}</td>
-              <td class="border px-4 py-2 font-bold ${d.senal === 'COMPRAR' ? 'text-green-600' : d.senal === 'VENDER' ? 'text-red-600' : 'text-gray-700'}">${d.senal}</td>
-            `;
-            tbody.appendChild(tr);
-          });
-        });
-    }
+    if (chart) chart.destroy();
 
-    select.addEventListener('change', e => cargarDatos(e.target.value));
-    cargarDatos(select.value);
-
-    tsParticles.load("particles-js", {
-      background: { color: "#0f172a" },
-      fpsLimit: 60,
-      interactivity: { detectsOn: "canvas" },
-      particles: {
-        color: { value: "#ffffff" },
-        number: { value: 120, density: { enable: true, area: 800 } },
-        opacity: { value: 0.5 },
-        size: { value: 1.5 },
-        move: { enable: true, speed: 0.3 }
+    chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Precio Real',
+            data: preciosReales,
+            borderColor: 'rgb(59, 130, 246)',
+            fill: false,
+            tension: 0.3
+          },
+          {
+            label: 'Precio Predicho',
+            data: predichos,
+            borderColor: 'rgb(234, 88, 12)',
+            fill: false,
+            tension: 0.3
+          }
+        ]
       },
-      detectRetina: true
+      options: {
+        responsive: true,
+        scales: {
+          y: { beginAtZero: false }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
     });
-  </script>
+
+    const tbody = document.getElementById('tablaSenales');
+    tbody.innerHTML = '';
+    datosFiltrados.forEach((d) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="border px-4 py-2">${d.fecha}</td>
+        <td class="border px-4 py-2">${d.precio_real.toFixed(2)}</td>
+        <td class="border px-4 py-2">${d.precio_predicho.toFixed(2)}</td>
+        <td class="border px-4 py-2 font-bold ${d.senal === 'COMPRAR' ? 'text-green-600' : d.senal === 'VENDER' ? 'text-red-600' : 'text-gray-700'}">${d.senal}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  });
+
+  }
+
+  select.addEventListener('change', e => cargarDatos(e.target.value));
+  cargarDatos(select.value);
+
+  tsParticles.load("particles-js", {
+    background: { color: "#0f172a" },
+    fpsLimit: 60,
+    interactivity: { detectsOn: "canvas" },
+    particles: {
+      color: { value: "#ffffff" },
+      number: { value: 120, density: { enable: true, area: 800 } },
+      opacity: { value: 0.5 },
+      size: { value: 1.5 },
+      move: { enable: true, speed: 0.3 }
+    },
+    detectRetina: true
+  });
+</script>
+
 </body>
 </html>

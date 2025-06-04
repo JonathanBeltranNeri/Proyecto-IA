@@ -1,62 +1,7814 @@
 [
     {
-        "dia": "Día 1",
-        "precio_real": 921.0800170898438,
-        "precio_predicho": 916.3643798828125,
-        "senal": "VENDER"
-    },
-    {
-        "dia": "Día 2",
-        "precio_real": 919.1300048828125,
-        "precio_predicho": 917.4354858398438,
-        "senal": "VENDER"
-    },
-    {
-        "dia": "Día 3",
-        "precio_real": 889.5499877929688,
-        "precio_predicho": 917.7743530273438,
-        "senal": "VENDER"
-    },
-    {
-        "dia": "Día 4",
-        "precio_real": 902.0399780273438,
-        "precio_predicho": 915.4422607421875,
-        "senal": "COMPRAR"
-    },
-    {
-        "dia": "Día 5",
-        "precio_real": 909.0499877929689,
-        "precio_predicho": 912.5618286132812,
-        "senal": "COMPRAR"
-    },
-    {
-        "dia": "Día 6",
-        "precio_real": 911.4500122070312,
-        "precio_predicho": 909.8457641601562,
+        "fecha": "2025-06-05",
+        "precio_real": 370.96,
+        "precio_predicho": 344.76,
         "senal": "MANTENER"
     },
     {
-        "dia": "Día 7",
-        "precio_real": 932.1199951171875,
-        "precio_predicho": 907.4824829101562,
+        "fecha": "2025-06-06",
+        "precio_real": 375.5,
+        "precio_predicho": 349.48,
         "senal": "VENDER"
     },
     {
-        "dia": "Día 8",
-        "precio_real": 924.1400146484376,
-        "precio_predicho": 906.9490356445312,
+        "fecha": "2025-06-07",
+        "precio_real": 364.08,
+        "precio_predicho": 354.85,
         "senal": "VENDER"
     },
     {
-        "dia": "Día 9",
-        "precio_real": 907.5499877929688,
-        "precio_predicho": 906.9201049804688,
+        "fecha": "2025-06-08",
+        "precio_real": 370.08,
+        "precio_predicho": 359.63,
         "senal": "VENDER"
     },
     {
-        "dia": "Día 10",
-        "precio_real": 900.4299926757812,
-        "precio_predicho": 906.1015014648438,
+        "fecha": "2025-06-09",
+        "precio_real": 361.76,
+        "precio_predicho": 364.11,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-10",
+        "precio_real": 379.96,
+        "precio_predicho": 367.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-11",
+        "precio_real": 372.28,
+        "precio_predicho": 371.25,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-12",
+        "precio_real": 371.12,
+        "precio_predicho": 374.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-13",
+        "precio_real": 370.72,
+        "precio_predicho": 376.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-14",
+        "precio_real": 396.72,
+        "precio_predicho": 378.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-15",
+        "precio_real": 413.55,
+        "precio_predicho": 381.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-16",
+        "precio_real": 426.75,
+        "precio_predicho": 386.37,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-17",
+        "precio_real": 439.17,
+        "precio_predicho": 392.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-18",
+        "precio_real": 422.96,
+        "precio_predicho": 400.83,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-19",
+        "precio_real": 437.49,
+        "precio_predicho": 408.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-20",
+        "precio_real": 433.83,
+        "precio_predicho": 416.36,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-21",
+        "precio_real": 421.42,
+        "precio_predicho": 423.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-06-22",
+        "precio_real": 426.7,
+        "precio_predicho": 429.19,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-23",
+        "precio_real": 424.99,
+        "precio_predicho": 433.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-24",
+        "precio_real": 421.38,
+        "precio_predicho": 436.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-25",
+        "precio_real": 403.83,
+        "precio_predicho": 438.55,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-26",
+        "precio_real": 411.89,
+        "precio_predicho": 438.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-27",
+        "precio_real": 419.85,
+        "precio_predicho": 436.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-28",
+        "precio_real": 415.27,
+        "precio_predicho": 435.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-29",
+        "precio_real": 428.15,
+        "precio_predicho": 433.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-06-30",
+        "precio_real": 424.68,
+        "precio_predicho": 432.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-01",
+        "precio_real": 434.26,
+        "precio_predicho": 432.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-02",
+        "precio_real": 436.53,
+        "precio_predicho": 432.4,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-03",
+        "precio_real": 435.55,
+        "precio_predicho": 433.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-04",
+        "precio_real": 440.52,
+        "precio_predicho": 434.91,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-07-05",
+        "precio_real": 431.82,
+        "precio_predicho": 436.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-06",
+        "precio_real": 438.27,
+        "precio_predicho": 438.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-07",
+        "precio_real": 441.95,
+        "precio_predicho": 440.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-08",
+        "precio_real": 454.19,
+        "precio_predicho": 442.02,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-07-09",
+        "precio_real": 452.58,
+        "precio_predicho": 444.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-10",
+        "precio_real": 451.04,
+        "precio_predicho": 447.67,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-11",
+        "precio_real": 447.67,
+        "precio_predicho": 450.55,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-07-12",
+        "precio_real": 436.25,
+        "precio_predicho": 452.96,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-13",
+        "precio_real": 429.32,
+        "precio_predicho": 454.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-14",
+        "precio_real": 414.77,
+        "precio_predicho": 453.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-15",
+        "precio_real": 419.89,
+        "precio_predicho": 451.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-16",
+        "precio_real": 413.44,
+        "precio_predicho": 448.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-17",
+        "precio_real": 419.73,
+        "precio_predicho": 444.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-18",
+        "precio_real": 425.92,
+        "precio_predicho": 440.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-19",
+        "precio_real": 427.31,
+        "precio_predicho": 437.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-20",
+        "precio_real": 421.97,
+        "precio_predicho": 435.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-21",
+        "precio_real": 414.33,
+        "precio_predicho": 433.42,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-22",
+        "precio_real": 419.6,
+        "precio_predicho": 431.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-23",
+        "precio_real": 419.49,
+        "precio_predicho": 429.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-24",
+        "precio_real": 434.05,
+        "precio_predicho": 428.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-25",
+        "precio_real": 434.48,
+        "precio_predicho": 428.04,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-26",
+        "precio_real": 425.56,
+        "precio_predicho": 428.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-27",
+        "precio_real": 418.07,
+        "precio_predicho": 429.77,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-28",
+        "precio_real": 425.5,
+        "precio_predicho": 430.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-29",
+        "precio_real": 436.13,
+        "precio_predicho": 430.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-07-30",
+        "precio_real": 447.77,
+        "precio_predicho": 431.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-07-31",
+        "precio_real": 449.87,
+        "precio_predicho": 434.17,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-01",
+        "precio_real": 453.72,
+        "precio_predicho": 437.4,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-02",
+        "precio_real": 468.04,
+        "precio_predicho": 441.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-03",
+        "precio_real": 466.26,
+        "precio_predicho": 446.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-04",
+        "precio_real": 457.85,
+        "precio_predicho": 451.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-05",
+        "precio_real": 465.91,
+        "precio_predicho": 456.53,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-06",
+        "precio_real": 443.4,
+        "precio_predicho": 461.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-07",
+        "precio_real": 447.24,
+        "precio_predicho": 463.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-08",
+        "precio_real": 455.04,
+        "precio_predicho": 465.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-09",
+        "precio_real": 485.64,
+        "precio_predicho": 466.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-10",
+        "precio_real": 476.89,
+        "precio_predicho": 468.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-11",
+        "precio_real": 493.81,
+        "precio_predicho": 471.58,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-12",
+        "precio_real": 493.16,
+        "precio_predicho": 475.79,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-13",
+        "precio_real": 502.78,
+        "precio_predicho": 480.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-14",
+        "precio_real": 507.76,
+        "precio_predicho": 486.05,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-15",
+        "precio_real": 548.73,
+        "precio_predicho": 492.04,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-16",
+        "precio_real": 525.5,
+        "precio_predicho": 500.8,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-17",
+        "precio_real": 524.88,
+        "precio_predicho": 509.27,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-18",
+        "precio_real": 523.26,
+        "precio_predicho": 517.02,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-08-19",
+        "precio_real": 527.39,
+        "precio_predicho": 523.63,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-08-20",
+        "precio_real": 492.99,
+        "precio_predicho": 529.3,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-21",
+        "precio_real": 502.41,
+        "precio_predicho": 531.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-22",
+        "precio_real": 490.1,
+        "precio_predicho": 531.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-23",
+        "precio_real": 489.82,
+        "precio_predicho": 529.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-24",
+        "precio_real": 477.58,
+        "precio_predicho": 526.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-25",
+        "precio_real": 480.45,
+        "precio_predicho": 521.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-26",
+        "precio_real": 495.65,
+        "precio_predicho": 516.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-27",
+        "precio_real": 488.51,
+        "precio_predicho": 511.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-28",
+        "precio_real": 484.48,
+        "precio_predicho": 507.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-29",
+        "precio_real": 485.8,
+        "precio_predicho": 503.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-30",
+        "precio_real": 488.88,
+        "precio_predicho": 500.0,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-08-31",
+        "precio_real": 498.62,
+        "precio_predicho": 497.48,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-01",
+        "precio_real": 509.64,
+        "precio_predicho": 496.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-02",
+        "precio_real": 502.11,
+        "precio_predicho": 496.99,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-03",
+        "precio_real": 509.08,
+        "precio_predicho": 498.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-04",
+        "precio_real": 494.73,
+        "precio_predicho": 500.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-05",
+        "precio_real": 483.38,
+        "precio_predicho": 502.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-06",
+        "precio_real": 466.93,
+        "precio_predicho": 502.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-07",
+        "precio_real": 475.47,
+        "precio_predicho": 501.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-08",
+        "precio_real": 481.33,
+        "precio_predicho": 498.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-09",
+        "precio_real": 482.68,
+        "precio_predicho": 496.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-10",
+        "precio_real": 482.35,
+        "precio_predicho": 494.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-11",
+        "precio_real": 491.87,
+        "precio_predicho": 493.0,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-12",
+        "precio_real": 484.53,
+        "precio_predicho": 492.31,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-09-13",
+        "precio_real": 497.9,
+        "precio_predicho": 491.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-14",
+        "precio_real": 492.31,
+        "precio_predicho": 492.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-15",
+        "precio_real": 488.81,
+        "precio_predicho": 493.42,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-16",
+        "precio_real": 490.58,
+        "precio_predicho": 494.34,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-17",
+        "precio_real": 547.53,
+        "precio_predicho": 495.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-18",
+        "precio_real": 526.27,
+        "precio_predicho": 500.13,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-19",
+        "precio_real": 523.89,
+        "precio_predicho": 505.8,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-20",
+        "precio_real": 529.56,
+        "precio_predicho": 511.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-21",
+        "precio_real": 556.55,
+        "precio_predicho": 517.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-22",
+        "precio_real": 552.84,
+        "precio_predicho": 525.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-23",
+        "precio_real": 525.75,
+        "precio_predicho": 532.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-09-24",
+        "precio_real": 516.05,
+        "precio_predicho": 538.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-25",
+        "precio_real": 507.02,
+        "precio_predicho": 541.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-26",
+        "precio_real": 500.19,
+        "precio_predicho": 542.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-27",
+        "precio_real": 480.67,
+        "precio_predicho": 540.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-28",
+        "precio_real": 482.03,
+        "precio_predicho": 535.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-29",
+        "precio_real": 476.26,
+        "precio_predicho": 529.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-09-30",
+        "precio_real": 495.99,
+        "precio_predicho": 522.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-01",
+        "precio_real": 483.86,
+        "precio_predicho": 515.82,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-02",
+        "precio_real": 470.2,
+        "precio_predicho": 509.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-03",
+        "precio_real": 469.96,
+        "precio_predicho": 503.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-04",
+        "precio_real": 487.35,
+        "precio_predicho": 497.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-05",
+        "precio_real": 491.17,
+        "precio_predicho": 492.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-06",
+        "precio_real": 470.61,
+        "precio_predicho": 490.09,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-07",
+        "precio_real": 473.08,
+        "precio_predicho": 487.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-08",
+        "precio_real": 482.88,
+        "precio_predicho": 484.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-09",
+        "precio_real": 490.65,
+        "precio_predicho": 483.58,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-10-10",
+        "precio_real": 493.48,
+        "precio_predicho": 483.6,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-11",
+        "precio_real": 500.03,
+        "precio_predicho": 484.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-12",
+        "precio_real": 527.51,
+        "precio_predicho": 487.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-13",
+        "precio_real": 503.06,
+        "precio_predicho": 491.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-14",
+        "precio_real": 520.65,
+        "precio_predicho": 496.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-15",
+        "precio_real": 505.87,
+        "precio_predicho": 502.09,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-16",
+        "precio_real": 534.66,
+        "precio_predicho": 506.73,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-10-17",
+        "precio_real": 531.79,
+        "precio_predicho": 512.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-18",
+        "precio_real": 539.44,
+        "precio_predicho": 518.49,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-19",
+        "precio_real": 539.81,
+        "precio_predicho": 524.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-20",
+        "precio_real": 554.09,
+        "precio_predicho": 530.85,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-21",
+        "precio_real": 541.45,
+        "precio_predicho": 537.42,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-10-22",
+        "precio_real": 541.94,
+        "precio_predicho": 542.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-23",
+        "precio_real": 530.79,
+        "precio_predicho": 547.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-24",
+        "precio_real": 530.72,
+        "precio_predicho": 550.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-25",
+        "precio_real": 525.42,
+        "precio_predicho": 551.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-26",
+        "precio_real": 489.05,
+        "precio_predicho": 551.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-27",
+        "precio_real": 485.23,
+        "precio_predicho": 547.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-28",
+        "precio_real": 488.28,
+        "precio_predicho": 541.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-29",
+        "precio_real": 488.24,
+        "precio_predicho": 534.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-30",
+        "precio_real": 488.93,
+        "precio_predicho": 526.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-10-31",
+        "precio_real": 486.24,
+        "precio_predicho": 519.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-01",
+        "precio_real": 504.21,
+        "precio_predicho": 512.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-02",
+        "precio_real": 475.74,
+        "precio_predicho": 507.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-03",
+        "precio_real": 484.12,
+        "precio_predicho": 502.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-04",
+        "precio_real": 487.22,
+        "precio_predicho": 498.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-05",
+        "precio_real": 496.95,
+        "precio_predicho": 495.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-06",
+        "precio_real": 513.76,
+        "precio_predicho": 493.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-07",
+        "precio_real": 514.73,
+        "precio_predicho": 494.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-08",
+        "precio_real": 470.5,
+        "precio_predicho": 496.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-09",
+        "precio_real": 480.24,
+        "precio_predicho": 496.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-10",
+        "precio_real": 490.76,
+        "precio_predicho": 496.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-11",
+        "precio_real": 486.77,
+        "precio_predicho": 496.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-12",
+        "precio_real": 482.84,
+        "precio_predicho": 496.07,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-13",
+        "precio_real": 479.1,
+        "precio_predicho": 495.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-14",
+        "precio_real": 480.63,
+        "precio_predicho": 494.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-15",
+        "precio_real": 481.79,
+        "precio_predicho": 493.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-16",
+        "precio_real": 484.67,
+        "precio_predicho": 492.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-17",
+        "precio_real": 488.24,
+        "precio_predicho": 491.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-18",
+        "precio_real": 476.62,
+        "precio_predicho": 491.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-19",
+        "precio_real": 482.88,
+        "precio_predicho": 490.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-20",
+        "precio_real": 485.0,
+        "precio_predicho": 490.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-21",
+        "precio_real": 491.36,
+        "precio_predicho": 490.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-22",
+        "precio_real": 490.7,
+        "precio_predicho": 490.88,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2025-11-23",
+        "precio_real": 504.58,
+        "precio_predicho": 491.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-24",
+        "precio_real": 503.38,
+        "precio_predicho": 493.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-25",
+        "precio_real": 497.52,
+        "precio_predicho": 496.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-26",
+        "precio_real": 498.31,
+        "precio_predicho": 499.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-27",
+        "precio_real": 515.78,
+        "precio_predicho": 501.31,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-11-28",
+        "precio_real": 512.66,
+        "precio_predicho": 504.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-29",
+        "precio_real": 493.6,
+        "precio_predicho": 507.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-11-30",
+        "precio_real": 501.09,
+        "precio_predicho": 509.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-01",
+        "precio_real": 503.22,
+        "precio_predicho": 511.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-02",
+        "precio_real": 522.42,
+        "precio_predicho": 512.45,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-03",
+        "precio_real": 519.78,
+        "precio_predicho": 514.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-04",
+        "precio_real": 524.83,
+        "precio_predicho": 516.99,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-05",
+        "precio_real": 532.9,
+        "precio_predicho": 519.89,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-06",
+        "precio_real": 534.45,
+        "precio_predicho": 523.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-07",
+        "precio_real": 528.91,
+        "precio_predicho": 527.38,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-08",
+        "precio_real": 527.33,
+        "precio_predicho": 530.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-09",
+        "precio_real": 514.48,
+        "precio_predicho": 533.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-10",
+        "precio_real": 513.97,
+        "precio_predicho": 535.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-11",
+        "precio_real": 519.12,
+        "precio_predicho": 535.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-12",
+        "precio_real": 530.87,
+        "precio_predicho": 535.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-13",
+        "precio_real": 524.59,
+        "precio_predicho": 535.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-14",
+        "precio_real": 540.73,
+        "precio_predicho": 535.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-15",
+        "precio_real": 522.86,
+        "precio_predicho": 536.35,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-16",
+        "precio_real": 520.8,
+        "precio_predicho": 536.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-17",
+        "precio_real": 500.49,
+        "precio_predicho": 536.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-18",
+        "precio_real": 508.89,
+        "precio_predicho": 534.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-19",
+        "precio_real": 510.4,
+        "precio_predicho": 532.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-20",
+        "precio_real": 499.1,
+        "precio_predicho": 529.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-21",
+        "precio_real": 494.25,
+        "precio_predicho": 526.23,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-22",
+        "precio_real": 507.79,
+        "precio_predicho": 522.28,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-23",
+        "precio_real": 500.86,
+        "precio_predicho": 519.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-24",
+        "precio_real": 497.98,
+        "precio_predicho": 516.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-25",
+        "precio_real": 501.77,
+        "precio_predicho": 513.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-26",
+        "precio_real": 586.34,
+        "precio_predicho": 511.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2025-12-27",
+        "precio_real": 579.84,
+        "precio_predicho": 515.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-28",
+        "precio_real": 565.17,
+        "precio_predicho": 523.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-29",
+        "precio_real": 556.78,
+        "precio_predicho": 532.22,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-30",
+        "precio_real": 561.93,
+        "precio_predicho": 540.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2025-12-31",
+        "precio_real": 523.28,
+        "precio_predicho": 548.89,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-01-01",
+        "precio_real": 538.6,
+        "precio_predicho": 553.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-02",
+        "precio_real": 532.39,
+        "precio_predicho": 556.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-03",
+        "precio_real": 539.04,
+        "precio_predicho": 557.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-04",
+        "precio_real": 548.16,
+        "precio_predicho": 557.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-05",
+        "precio_real": 539.45,
+        "precio_predicho": 557.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-06",
+        "precio_real": 552.16,
+        "precio_predicho": 557.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-07",
+        "precio_real": 550.79,
+        "precio_predicho": 557.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-08",
+        "precio_real": 547.92,
+        "precio_predicho": 557.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-09",
+        "precio_real": 559.07,
+        "precio_predicho": 557.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-10",
+        "precio_real": 563.59,
+        "precio_predicho": 558.55,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-01-11",
+        "precio_real": 557.59,
+        "precio_predicho": 560.18,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-01-12",
+        "precio_real": 556.52,
+        "precio_predicho": 561.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-13",
+        "precio_real": 557.28,
+        "precio_predicho": 563.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-14",
+        "precio_real": 551.34,
+        "precio_predicho": 564.45,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-15",
+        "precio_real": 548.22,
+        "precio_predicho": 565.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-16",
+        "precio_real": 540.22,
+        "precio_predicho": 564.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-17",
+        "precio_real": 533.78,
+        "precio_predicho": 563.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-18",
+        "precio_real": 546.15,
+        "precio_predicho": 561.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-19",
+        "precio_real": 553.41,
+        "precio_predicho": 559.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-20",
+        "precio_real": 546.7,
+        "precio_predicho": 558.3,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-21",
+        "precio_real": 538.85,
+        "precio_predicho": 557.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-22",
+        "precio_real": 550.64,
+        "precio_predicho": 555.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-23",
+        "precio_real": 547.82,
+        "precio_predicho": 555.0,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-24",
+        "precio_real": 520.7,
+        "precio_predicho": 554.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-25",
+        "precio_real": 511.29,
+        "precio_predicho": 552.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-26",
+        "precio_real": 516.39,
+        "precio_predicho": 548.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-27",
+        "precio_real": 493.33,
+        "precio_predicho": 544.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-28",
+        "precio_real": 506.44,
+        "precio_predicho": 538.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-29",
+        "precio_real": 504.54,
+        "precio_predicho": 532.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-30",
+        "precio_real": 523.06,
+        "precio_predicho": 527.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-01-31",
+        "precio_real": 518.02,
+        "precio_predicho": 523.39,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-02-01",
+        "precio_real": 520.25,
+        "precio_predicho": 520.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-02",
+        "precio_real": 524.03,
+        "precio_predicho": 519.66,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-02-03",
+        "precio_real": 524.44,
+        "precio_predicho": 519.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-04",
+        "precio_real": 504.79,
+        "precio_predicho": 520.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-05",
+        "precio_real": 512.18,
+        "precio_predicho": 520.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-06",
+        "precio_real": 523.11,
+        "precio_predicho": 520.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-07",
+        "precio_real": 535.09,
+        "precio_predicho": 520.82,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-08",
+        "precio_real": 520.81,
+        "precio_predicho": 522.79,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-09",
+        "precio_real": 502.86,
+        "precio_predicho": 524.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-10",
+        "precio_real": 508.05,
+        "precio_predicho": 524.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-11",
+        "precio_real": 513.95,
+        "precio_predicho": 524.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-12",
+        "precio_real": 513.39,
+        "precio_predicho": 524.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-13",
+        "precio_real": 521.66,
+        "precio_predicho": 523.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-14",
+        "precio_real": 539.42,
+        "precio_predicho": 523.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-15",
+        "precio_real": 540.67,
+        "precio_predicho": 525.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-16",
+        "precio_real": 544.53,
+        "precio_predicho": 528.26,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-17",
+        "precio_real": 546.99,
+        "precio_predicho": 531.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-18",
+        "precio_real": 554.58,
+        "precio_predicho": 536.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-19",
+        "precio_real": 555.31,
+        "precio_predicho": 541.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-20",
+        "precio_real": 552.78,
+        "precio_predicho": 546.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-21",
+        "precio_real": 553.73,
+        "precio_predicho": 550.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-02-22",
+        "precio_real": 540.02,
+        "precio_predicho": 554.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-23",
+        "precio_real": 549.22,
+        "precio_predicho": 557.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-24",
+        "precio_real": 546.54,
+        "precio_predicho": 559.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-25",
+        "precio_real": 554.44,
+        "precio_predicho": 560.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-26",
+        "precio_real": 549.57,
+        "precio_predicho": 561.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-27",
+        "precio_real": 508.9,
+        "precio_predicho": 562.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-02-28",
+        "precio_real": 508.78,
+        "precio_predicho": 559.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-01",
+        "precio_real": 505.55,
+        "precio_predicho": 554.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-02",
+        "precio_real": 510.3,
+        "precio_predicho": 548.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-03",
+        "precio_real": 505.55,
+        "precio_predicho": 542.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-04",
+        "precio_real": 506.52,
+        "precio_predicho": 536.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-05",
+        "precio_real": 509.0,
+        "precio_predicho": 530.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-06",
+        "precio_real": 513.47,
+        "precio_predicho": 525.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-07",
+        "precio_real": 509.11,
+        "precio_predicho": 521.45,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-08",
+        "precio_real": 503.18,
+        "precio_predicho": 518.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-09",
+        "precio_real": 496.08,
+        "precio_predicho": 515.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-10",
+        "precio_real": 499.55,
+        "precio_predicho": 512.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-11",
+        "precio_real": 503.84,
+        "precio_predicho": 510.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-12",
+        "precio_real": 486.69,
+        "precio_predicho": 509.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-13",
+        "precio_real": 495.08,
+        "precio_predicho": 506.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-14",
+        "precio_real": 484.98,
+        "precio_predicho": 504.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-15",
+        "precio_real": 486.66,
+        "precio_predicho": 502.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-16",
+        "precio_real": 493.37,
+        "precio_predicho": 500.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-17",
+        "precio_real": 488.94,
+        "precio_predicho": 499.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-18",
+        "precio_real": 486.28,
+        "precio_predicho": 497.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-19",
+        "precio_real": 487.7,
+        "precio_predicho": 496.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-20",
+        "precio_real": 501.67,
+        "precio_predicho": 495.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-21",
+        "precio_real": 497.89,
+        "precio_predicho": 496.02,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-03-22",
+        "precio_real": 502.9,
+        "precio_predicho": 496.82,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-03-23",
+        "precio_real": 501.34,
+        "precio_predicho": 498.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-03-24",
+        "precio_real": 502.36,
+        "precio_predicho": 500.09,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-03-25",
+        "precio_real": 503.86,
+        "precio_predicho": 502.04,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-03-26",
+        "precio_real": 502.81,
+        "precio_predicho": 504.08,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-03-27",
+        "precio_real": 499.08,
+        "precio_predicho": 505.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-28",
+        "precio_real": 499.24,
+        "precio_predicho": 507.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-29",
+        "precio_real": 489.43,
+        "precio_predicho": 508.48,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-30",
+        "precio_real": 494.74,
+        "precio_predicho": 508.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-03-31",
+        "precio_real": 494.66,
+        "precio_predicho": 508.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-01",
+        "precio_real": 492.39,
+        "precio_predicho": 507.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-02",
+        "precio_real": 485.81,
+        "precio_predicho": 506.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-03",
+        "precio_real": 487.27,
+        "precio_predicho": 505.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-04",
+        "precio_real": 488.77,
+        "precio_predicho": 503.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-05",
+        "precio_real": 499.89,
+        "precio_predicho": 502.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-06",
+        "precio_real": 491.9,
+        "precio_predicho": 501.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-07",
+        "precio_real": 492.41,
+        "precio_predicho": 500.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-08",
+        "precio_real": 498.34,
+        "precio_predicho": 500.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-09",
+        "precio_real": 500.77,
+        "precio_predicho": 500.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-10",
+        "precio_real": 497.0,
+        "precio_predicho": 501.34,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-04-11",
+        "precio_real": 508.82,
+        "precio_predicho": 502.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-12",
+        "precio_real": 512.74,
+        "precio_predicho": 503.65,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-13",
+        "precio_real": 518.06,
+        "precio_predicho": 505.94,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-14",
+        "precio_real": 527.07,
+        "precio_predicho": 508.95,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-15",
+        "precio_real": 533.03,
+        "precio_predicho": 512.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-16",
+        "precio_real": 533.5,
+        "precio_predicho": 517.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-17",
+        "precio_real": 528.21,
+        "precio_predicho": 522.69,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-18",
+        "precio_real": 533.54,
+        "precio_predicho": 527.24,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-04-19",
+        "precio_real": 533.98,
+        "precio_predicho": 531.53,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-20",
+        "precio_real": 541.64,
+        "precio_predicho": 535.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-21",
+        "precio_real": 535.96,
+        "precio_predicho": 539.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-04-22",
+        "precio_real": 530.76,
+        "precio_predicho": 542.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-23",
+        "precio_real": 535.98,
+        "precio_predicho": 544.42,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-24",
+        "precio_real": 537.31,
+        "precio_predicho": 546.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-25",
+        "precio_real": 540.68,
+        "precio_predicho": 547.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-26",
+        "precio_real": 547.95,
+        "precio_predicho": 548.34,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-27",
+        "precio_real": 542.95,
+        "precio_predicho": 549.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-28",
+        "precio_real": 530.31,
+        "precio_predicho": 551.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-29",
+        "precio_real": 532.28,
+        "precio_predicho": 551.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-04-30",
+        "precio_real": 531.05,
+        "precio_predicho": 550.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-01",
+        "precio_real": 513.63,
+        "precio_predicho": 549.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-02",
+        "precio_real": 511.77,
+        "precio_predicho": 546.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-03",
+        "precio_real": 515.41,
+        "precio_predicho": 543.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-04",
+        "precio_real": 516.49,
+        "precio_predicho": 539.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-05",
+        "precio_real": 518.91,
+        "precio_predicho": 535.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-06",
+        "precio_real": 519.3,
+        "precio_predicho": 532.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-07",
+        "precio_real": 514.25,
+        "precio_predicho": 530.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-08",
+        "precio_real": 517.57,
+        "precio_predicho": 527.82,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-09",
+        "precio_real": 515.15,
+        "precio_predicho": 526.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-10",
+        "precio_real": 510.82,
+        "precio_predicho": 524.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-11",
+        "precio_real": 517.35,
+        "precio_predicho": 523.13,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-12",
+        "precio_real": 524.89,
+        "precio_predicho": 522.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-13",
+        "precio_real": 520.55,
+        "precio_predicho": 522.37,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-14",
+        "precio_real": 519.97,
+        "precio_predicho": 522.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-15",
+        "precio_real": 515.84,
+        "precio_predicho": 523.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-16",
+        "precio_real": 512.4,
+        "precio_predicho": 523.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-17",
+        "precio_real": 510.72,
+        "precio_predicho": 524.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-18",
+        "precio_real": 515.92,
+        "precio_predicho": 523.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-19",
+        "precio_real": 517.92,
+        "precio_predicho": 523.61,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-20",
+        "precio_real": 518.91,
+        "precio_predicho": 523.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-21",
+        "precio_real": 521.87,
+        "precio_predicho": 523.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-22",
+        "precio_real": 543.71,
+        "precio_predicho": 524.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-05-23",
+        "precio_real": 546.88,
+        "precio_predicho": 526.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-24",
+        "precio_real": 553.33,
+        "precio_predicho": 530.47,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-25",
+        "precio_real": 553.41,
+        "precio_predicho": 535.16,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-26",
+        "precio_real": 547.58,
+        "precio_predicho": 540.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-27",
+        "precio_real": 550.12,
+        "precio_predicho": 545.06,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-28",
+        "precio_real": 558.92,
+        "precio_predicho": 549.4,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-05-29",
+        "precio_real": 566.18,
+        "precio_predicho": 553.78,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-30",
+        "precio_real": 569.19,
+        "precio_predicho": 558.4,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-05-31",
+        "precio_real": 582.07,
+        "precio_predicho": 563.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-01",
+        "precio_real": 588.55,
+        "precio_predicho": 568.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-02",
+        "precio_real": 590.53,
+        "precio_predicho": 574.28,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-03",
+        "precio_real": 606.71,
+        "precio_predicho": 580.26,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-04",
+        "precio_real": 606.05,
+        "precio_predicho": 587.09,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-05",
+        "precio_real": 597.54,
+        "precio_predicho": 593.97,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-06",
+        "precio_real": 598.72,
+        "precio_predicho": 599.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-07",
+        "precio_real": 589.29,
+        "precio_predicho": 604.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-08",
+        "precio_real": 577.76,
+        "precio_predicho": 607.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-09",
+        "precio_real": 582.87,
+        "precio_predicho": 608.63,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-10",
+        "precio_real": 586.5,
+        "precio_predicho": 608.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-11",
+        "precio_real": 589.35,
+        "precio_predicho": 607.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-12",
+        "precio_real": 575.43,
+        "precio_predicho": 605.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-13",
+        "precio_real": 573.14,
+        "precio_predicho": 603.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-14",
+        "precio_real": 590.65,
+        "precio_predicho": 600.6,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-15",
+        "precio_real": 593.26,
+        "precio_predicho": 598.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-16",
+        "precio_real": 592.39,
+        "precio_predicho": 597.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-17",
+        "precio_real": 592.64,
+        "precio_predicho": 596.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-18",
+        "precio_real": 583.85,
+        "precio_predicho": 596.61,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-19",
+        "precio_real": 599.06,
+        "precio_predicho": 596.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-20",
+        "precio_real": 610.34,
+        "precio_predicho": 596.86,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-21",
+        "precio_real": 613.15,
+        "precio_predicho": 598.83,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-22",
+        "precio_real": 603.35,
+        "precio_predicho": 601.8,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-23",
+        "precio_real": 634.81,
+        "precio_predicho": 604.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-24",
+        "precio_real": 639.1,
+        "precio_predicho": 609.35,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-25",
+        "precio_real": 631.85,
+        "precio_predicho": 615.4,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-26",
+        "precio_real": 632.66,
+        "precio_predicho": 621.44,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-27",
+        "precio_real": 627.04,
+        "precio_predicho": 627.15,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-06-28",
+        "precio_real": 624.94,
+        "precio_predicho": 631.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-29",
+        "precio_real": 629.76,
+        "precio_predicho": 635.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-06-30",
+        "precio_real": 633.8,
+        "precio_predicho": 638.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-01",
+        "precio_real": 628.29,
+        "precio_predicho": 640.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-02",
+        "precio_real": 637.97,
+        "precio_predicho": 642.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-03",
+        "precio_real": 639.0,
+        "precio_predicho": 643.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-04",
+        "precio_real": 625.14,
+        "precio_predicho": 644.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-05",
+        "precio_real": 653.16,
+        "precio_predicho": 645.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-06",
+        "precio_real": 664.78,
+        "precio_predicho": 646.73,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-07",
+        "precio_real": 671.66,
+        "precio_predicho": 649.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-08",
+        "precio_real": 668.52,
+        "precio_predicho": 654.14,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-09",
+        "precio_real": 662.92,
+        "precio_predicho": 658.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-10",
+        "precio_real": 674.05,
+        "precio_predicho": 663.22,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-07-11",
+        "precio_real": 690.31,
+        "precio_predicho": 667.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-12",
+        "precio_real": 681.17,
+        "precio_predicho": 673.3,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-13",
+        "precio_real": 677.72,
+        "precio_predicho": 678.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-14",
+        "precio_real": 688.29,
+        "precio_predicho": 682.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-15",
+        "precio_real": 668.4,
+        "precio_predicho": 686.86,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-16",
+        "precio_real": 645.72,
+        "precio_predicho": 689.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-17",
+        "precio_real": 651.45,
+        "precio_predicho": 688.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-18",
+        "precio_real": 655.99,
+        "precio_predicho": 685.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-19",
+        "precio_real": 646.91,
+        "precio_predicho": 682.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-20",
+        "precio_real": 657.58,
+        "precio_predicho": 678.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-21",
+        "precio_real": 682.61,
+        "precio_predicho": 674.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-22",
+        "precio_real": 679.33,
+        "precio_predicho": 673.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-23",
+        "precio_real": 687.4,
+        "precio_predicho": 673.02,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-24",
+        "precio_real": 691.69,
+        "precio_predicho": 674.57,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-25",
+        "precio_real": 682.02,
+        "precio_predicho": 677.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-26",
+        "precio_real": 678.8,
+        "precio_predicho": 680.27,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-07-27",
+        "precio_real": 659.2,
+        "precio_predicho": 682.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-28",
+        "precio_real": 654.06,
+        "precio_predicho": 683.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-29",
+        "precio_real": 658.29,
+        "precio_predicho": 682.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-30",
+        "precio_real": 665.64,
+        "precio_predicho": 680.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-07-31",
+        "precio_real": 663.84,
+        "precio_predicho": 678.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-01",
+        "precio_real": 641.9,
+        "precio_predicho": 676.42,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-02",
+        "precio_real": 617.77,
+        "precio_predicho": 673.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-03",
+        "precio_real": 616.47,
+        "precio_predicho": 667.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-04",
+        "precio_real": 602.13,
+        "precio_predicho": 660.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-05",
+        "precio_real": 612.69,
+        "precio_predicho": 651.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-06",
+        "precio_real": 625.58,
+        "precio_predicho": 642.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-07",
+        "precio_real": 628.08,
+        "precio_predicho": 636.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-08",
+        "precio_real": 611.0,
+        "precio_predicho": 631.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-09",
+        "precio_real": 611.66,
+        "precio_predicho": 626.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-10",
+        "precio_real": 604.56,
+        "precio_predicho": 622.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-11",
+        "precio_real": 597.99,
+        "precio_predicho": 618.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-12",
+        "precio_real": 605.04,
+        "precio_predicho": 615.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-13",
+        "precio_real": 591.06,
+        "precio_predicho": 612.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-14",
+        "precio_real": 586.73,
+        "precio_predicho": 608.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-15",
+        "precio_real": 593.74,
+        "precio_predicho": 605.42,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-16",
+        "precio_real": 604.92,
+        "precio_predicho": 602.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-17",
+        "precio_real": 614.24,
+        "precio_predicho": 601.05,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-08-18",
+        "precio_real": 614.09,
+        "precio_predicho": 601.33,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-08-19",
+        "precio_real": 613.12,
+        "precio_predicho": 602.81,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-08-20",
+        "precio_real": 610.71,
+        "precio_predicho": 604.99,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-08-21",
+        "precio_real": 610.54,
+        "precio_predicho": 607.37,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-08-22",
+        "precio_real": 612.09,
+        "precio_predicho": 609.74,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-08-23",
+        "precio_real": 602.44,
+        "precio_predicho": 612.08,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-08-24",
+        "precio_real": 597.37,
+        "precio_predicho": 613.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-25",
+        "precio_real": 591.15,
+        "precio_predicho": 613.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-26",
+        "precio_real": 567.52,
+        "precio_predicho": 613.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-27",
+        "precio_real": 553.29,
+        "precio_predicho": 609.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-28",
+        "precio_real": 541.06,
+        "precio_predicho": 604.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-29",
+        "precio_real": 539.85,
+        "precio_predicho": 596.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-30",
+        "precio_real": 540.84,
+        "precio_predicho": 587.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-08-31",
+        "precio_real": 537.22,
+        "precio_predicho": 578.31,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-01",
+        "precio_real": 519.2,
+        "precio_predicho": 569.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-02",
+        "precio_real": 525.69,
+        "precio_predicho": 560.34,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-03",
+        "precio_real": 510.8,
+        "precio_predicho": 551.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-04",
+        "precio_real": 515.86,
+        "precio_predicho": 543.55,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-05",
+        "precio_real": 508.25,
+        "precio_predicho": 536.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-06",
+        "precio_real": 397.5,
+        "precio_predicho": 529.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-07",
+        "precio_real": 387.15,
+        "precio_predicho": 515.87,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-08",
+        "precio_real": 366.42,
+        "precio_predicho": 498.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-09",
+        "precio_real": 359.7,
+        "precio_predicho": 477.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-10",
+        "precio_real": 386.7,
+        "precio_predicho": 454.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-11",
+        "precio_real": 384.36,
+        "precio_predicho": 435.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-12",
+        "precio_real": 427.14,
+        "precio_predicho": 418.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-13",
+        "precio_real": 457.13,
+        "precio_predicho": 407.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-14",
+        "precio_real": 429.48,
+        "precio_predicho": 402.93,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-15",
+        "precio_real": 405.6,
+        "precio_predicho": 401.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-16",
+        "precio_real": 410.17,
+        "precio_predicho": 401.54,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-17",
+        "precio_real": 402.1,
+        "precio_predicho": 402.14,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-18",
+        "precio_real": 403.53,
+        "precio_predicho": 402.81,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-09-19",
+        "precio_real": 412.89,
+        "precio_predicho": 403.59,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-09-20",
+        "precio_real": 406.27,
+        "precio_predicho": 405.04,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-09-21",
+        "precio_real": 391.31,
+        "precio_predicho": 406.43,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-09-22",
+        "precio_real": 396.57,
+        "precio_predicho": 406.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-23",
+        "precio_real": 407.46,
+        "precio_predicho": 406.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-24",
+        "precio_real": 398.08,
+        "precio_predicho": 407.11,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-09-25",
+        "precio_real": 386.67,
+        "precio_predicho": 407.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-26",
+        "precio_real": 391.29,
+        "precio_predicho": 406.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-27",
+        "precio_real": 377.38,
+        "precio_predicho": 405.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-28",
+        "precio_real": 367.46,
+        "precio_predicho": 403.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-29",
+        "precio_real": 390.03,
+        "precio_predicho": 399.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-09-30",
+        "precio_real": 390.8,
+        "precio_predicho": 397.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-01",
+        "precio_real": 394.52,
+        "precio_predicho": 395.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-02",
+        "precio_real": 386.24,
+        "precio_predicho": 394.71,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-10-03",
+        "precio_real": 380.03,
+        "precio_predicho": 394.06,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-04",
+        "precio_real": 368.07,
+        "precio_predicho": 393.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-05",
+        "precio_real": 361.73,
+        "precio_predicho": 391.39,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-06",
+        "precio_real": 350.26,
+        "precio_predicho": 388.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-07",
+        "precio_real": 341.76,
+        "precio_predicho": 384.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-08",
+        "precio_real": 358.79,
+        "precio_predicho": 379.77,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-09",
+        "precio_real": 356.77,
+        "precio_predicho": 375.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-10",
+        "precio_real": 340.32,
+        "precio_predicho": 371.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-11",
+        "precio_real": 331.01,
+        "precio_predicho": 367.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-12",
+        "precio_real": 343.75,
+        "precio_predicho": 362.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-13",
+        "precio_real": 357.53,
+        "precio_predicho": 358.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-14",
+        "precio_real": 371.4,
+        "precio_predicho": 355.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-15",
+        "precio_real": 380.6,
+        "precio_predicho": 355.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-16",
+        "precio_real": 374.59,
+        "precio_predicho": 357.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-17",
+        "precio_real": 382.92,
+        "precio_predicho": 359.86,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-18",
+        "precio_real": 374.49,
+        "precio_predicho": 363.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-19",
+        "precio_real": 375.71,
+        "precio_predicho": 367.51,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-20",
+        "precio_real": 373.85,
+        "precio_predicho": 371.15,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-21",
+        "precio_real": 378.51,
+        "precio_predicho": 374.33,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-10-22",
+        "precio_real": 391.82,
+        "precio_predicho": 377.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-23",
+        "precio_real": 381.47,
+        "precio_predicho": 380.78,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-24",
+        "precio_real": 374.59,
+        "precio_predicho": 383.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-25",
+        "precio_real": 373.47,
+        "precio_predicho": 385.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-26",
+        "precio_real": 391.5,
+        "precio_predicho": 386.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-27",
+        "precio_real": 380.15,
+        "precio_predicho": 388.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-10-28",
+        "precio_real": 368.35,
+        "precio_predicho": 389.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-29",
+        "precio_real": 362.15,
+        "precio_predicho": 389.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-30",
+        "precio_real": 355.88,
+        "precio_predicho": 388.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-10-31",
+        "precio_real": 348.0,
+        "precio_predicho": 385.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-01",
+        "precio_real": 344.1,
+        "precio_predicho": 382.04,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-02",
+        "precio_real": 350.43,
+        "precio_predicho": 377.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-03",
+        "precio_real": 341.13,
+        "precio_predicho": 373.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-04",
+        "precio_real": 337.86,
+        "precio_predicho": 368.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-05",
+        "precio_real": 348.61,
+        "precio_predicho": 363.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-06",
+        "precio_real": 226.19,
+        "precio_predicho": 359.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-07",
+        "precio_real": 218.22,
+        "precio_predicho": 349.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-08",
+        "precio_real": 215.52,
+        "precio_predicho": 334.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-09",
+        "precio_real": 209.91,
+        "precio_predicho": 316.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-10",
+        "precio_real": 198.4,
+        "precio_predicho": 297.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-11",
+        "precio_real": 188.54,
+        "precio_predicho": 279.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-12",
+        "precio_real": 199.52,
+        "precio_predicho": 261.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-13",
+        "precio_real": 190.36,
+        "precio_predicho": 245.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-14",
+        "precio_real": 199.46,
+        "precio_predicho": 231.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-15",
+        "precio_real": 199.87,
+        "precio_predicho": 219.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-16",
+        "precio_real": 204.01,
+        "precio_predicho": 210.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-17",
+        "precio_real": 188.32,
+        "precio_predicho": 204.64,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-11-18",
+        "precio_real": 180.97,
+        "precio_predicho": 199.6,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-19",
+        "precio_real": 173.1,
+        "precio_predicho": 195.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-20",
+        "precio_real": 177.66,
+        "precio_predicho": 191.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-21",
+        "precio_real": 166.37,
+        "precio_predicho": 187.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-22",
+        "precio_real": 174.31,
+        "precio_predicho": 184.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-23",
+        "precio_real": 187.64,
+        "precio_predicho": 181.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-24",
+        "precio_real": 186.51,
+        "precio_predicho": 180.5,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-11-25",
+        "precio_real": 190.56,
+        "precio_predicho": 180.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-11-26",
+        "precio_real": 177.19,
+        "precio_predicho": 180.85,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-11-27",
+        "precio_real": 183.48,
+        "precio_predicho": 181.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-11-28",
+        "precio_real": 186.35,
+        "precio_predicho": 182.14,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-11-29",
+        "precio_real": 187.44,
+        "precio_predicho": 183.18,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-11-30",
+        "precio_real": 180.34,
+        "precio_predicho": 184.44,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-01",
+        "precio_real": 187.83,
+        "precio_predicho": 185.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-02",
+        "precio_real": 191.4,
+        "precio_predicho": 186.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-03",
+        "precio_real": 195.19,
+        "precio_predicho": 187.78,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-04",
+        "precio_real": 197.44,
+        "precio_predicho": 189.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-05",
+        "precio_real": 192.91,
+        "precio_predicho": 191.36,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-06",
+        "precio_real": 205.09,
+        "precio_predicho": 193.11,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-12-07",
+        "precio_real": 198.98,
+        "precio_predicho": 195.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-08",
+        "precio_real": 197.14,
+        "precio_predicho": 197.42,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-09",
+        "precio_real": 198.61,
+        "precio_predicho": 199.19,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-10",
+        "precio_real": 202.83,
+        "precio_predicho": 200.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-11",
+        "precio_real": 192.77,
+        "precio_predicho": 202.21,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-12-12",
+        "precio_real": 182.94,
+        "precio_predicho": 203.04,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-13",
+        "precio_real": 169.69,
+        "precio_predicho": 202.77,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-14",
+        "precio_real": 167.54,
+        "precio_predicho": 200.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-15",
+        "precio_real": 180.11,
+        "precio_predicho": 198.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-16",
+        "precio_real": 173.35,
+        "precio_predicho": 195.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-17",
+        "precio_real": 175.51,
+        "precio_predicho": 192.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-18",
+        "precio_real": 170.91,
+        "precio_predicho": 189.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-19",
+        "precio_real": 178.89,
+        "precio_predicho": 187.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-20",
+        "precio_real": 181.71,
+        "precio_predicho": 185.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-21",
+        "precio_real": 190.85,
+        "precio_predicho": 183.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-22",
+        "precio_real": 189.14,
+        "precio_predicho": 183.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-23",
+        "precio_real": 179.6,
+        "precio_predicho": 184.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-24",
+        "precio_real": 178.36,
+        "precio_predicho": 184.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-25",
+        "precio_real": 174.87,
+        "precio_predicho": 184.96,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-26",
+        "precio_real": 179.95,
+        "precio_predicho": 184.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-27",
+        "precio_real": 185.88,
+        "precio_predicho": 184.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-28",
+        "precio_real": 184.06,
+        "precio_predicho": 185.13,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2026-12-29",
+        "precio_real": 189.27,
+        "precio_predicho": 185.61,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2026-12-30",
+        "precio_real": 186.98,
+        "precio_predicho": 186.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2026-12-31",
+        "precio_real": 177.34,
+        "precio_predicho": 187.39,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-01-01",
+        "precio_real": 174.45,
+        "precio_predicho": 187.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-02",
+        "precio_real": 176.56,
+        "precio_predicho": 187.6,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-03",
+        "precio_real": 174.78,
+        "precio_predicho": 187.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-04",
+        "precio_real": 189.11,
+        "precio_predicho": 186.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-05",
+        "precio_real": 190.92,
+        "precio_predicho": 186.36,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-06",
+        "precio_real": 201.63,
+        "precio_predicho": 186.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-07",
+        "precio_real": 216.44,
+        "precio_predicho": 188.44,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-08",
+        "precio_real": 223.88,
+        "precio_predicho": 191.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-09",
+        "precio_real": 220.44,
+        "precio_predicho": 195.78,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-10",
+        "precio_real": 218.51,
+        "precio_predicho": 200.57,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-11",
+        "precio_real": 213.91,
+        "precio_predicho": 205.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-12",
+        "precio_real": 226.75,
+        "precio_predicho": 209.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-13",
+        "precio_real": 226.02,
+        "precio_predicho": 213.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-14",
+        "precio_real": 224.9,
+        "precio_predicho": 217.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-15",
+        "precio_real": 226.21,
+        "precio_predicho": 221.28,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-16",
+        "precio_real": 221.42,
+        "precio_predicho": 224.4,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-17",
+        "precio_real": 226.73,
+        "precio_predicho": 226.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-18",
+        "precio_real": 229.91,
+        "precio_predicho": 228.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-19",
+        "precio_real": 226.78,
+        "precio_predicho": 230.53,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-01-20",
+        "precio_real": 233.49,
+        "precio_predicho": 231.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-21",
+        "precio_real": 229.94,
+        "precio_predicho": 233.34,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-01-22",
+        "precio_real": 244.11,
+        "precio_predicho": 234.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-23",
+        "precio_real": 242.7,
+        "precio_predicho": 236.22,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-24",
+        "precio_real": 249.3,
+        "precio_predicho": 238.17,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-25",
+        "precio_real": 249.11,
+        "precio_predicho": 240.57,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-26",
+        "precio_real": 245.69,
+        "precio_predicho": 243.13,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-01-27",
+        "precio_real": 241.15,
+        "precio_predicho": 245.44,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-01-28",
+        "precio_real": 245.17,
+        "precio_predicho": 247.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-29",
+        "precio_real": 241.16,
+        "precio_predicho": 248.63,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-30",
+        "precio_real": 226.54,
+        "precio_predicho": 249.57,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-01-31",
+        "precio_real": 224.55,
+        "precio_predicho": 249.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-01",
+        "precio_real": 229.61,
+        "precio_predicho": 247.85,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-02",
+        "precio_real": 233.98,
+        "precio_predicho": 246.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-03",
+        "precio_real": 223.28,
+        "precio_predicho": 244.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-04",
+        "precio_real": 224.57,
+        "precio_predicho": 242.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-05",
+        "precio_real": 220.65,
+        "precio_predicho": 240.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-06",
+        "precio_real": 223.56,
+        "precio_predicho": 238.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-07",
+        "precio_real": 230.04,
+        "precio_predicho": 236.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-08",
+        "precio_real": 226.11,
+        "precio_predicho": 234.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-09",
+        "precio_real": 218.39,
+        "precio_predicho": 233.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-10",
+        "precio_real": 228.96,
+        "precio_predicho": 232.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-11",
+        "precio_real": 227.44,
+        "precio_predicho": 231.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-12",
+        "precio_real": 233.57,
+        "precio_predicho": 230.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-13",
+        "precio_real": 236.53,
+        "precio_predicho": 230.95,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-14",
+        "precio_real": 218.13,
+        "precio_predicho": 231.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-15",
+        "precio_real": 224.12,
+        "precio_predicho": 231.85,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-16",
+        "precio_real": 235.38,
+        "precio_predicho": 231.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-17",
+        "precio_real": 240.13,
+        "precio_predicho": 232.3,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-18",
+        "precio_real": 243.63,
+        "precio_predicho": 233.44,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-19",
+        "precio_real": 242.85,
+        "precio_predicho": 235.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-20",
+        "precio_real": 236.87,
+        "precio_predicho": 237.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-21",
+        "precio_real": 237.05,
+        "precio_predicho": 238.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-22",
+        "precio_real": 226.41,
+        "precio_predicho": 240.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-23",
+        "precio_real": 224.07,
+        "precio_predicho": 240.93,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-24",
+        "precio_real": 224.36,
+        "precio_predicho": 240.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-25",
+        "precio_real": 245.2,
+        "precio_predicho": 239.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-02-26",
+        "precio_real": 239.71,
+        "precio_predicho": 239.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-02-27",
+        "precio_real": 235.44,
+        "precio_predicho": 240.26,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-02-28",
+        "precio_real": 239.04,
+        "precio_predicho": 240.61,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-01",
+        "precio_real": 240.74,
+        "precio_predicho": 241.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-02",
+        "precio_real": 236.73,
+        "precio_predicho": 241.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-03",
+        "precio_real": 240.02,
+        "precio_predicho": 242.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-04",
+        "precio_real": 224.75,
+        "precio_predicho": 242.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-05",
+        "precio_real": 229.98,
+        "precio_predicho": 242.59,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-06",
+        "precio_real": 214.29,
+        "precio_predicho": 241.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-07",
+        "precio_real": 220.87,
+        "precio_predicho": 240.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-08",
+        "precio_real": 232.51,
+        "precio_predicho": 238.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-09",
+        "precio_real": 230.0,
+        "precio_predicho": 236.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-10",
+        "precio_real": 245.1,
+        "precio_predicho": 235.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-11",
+        "precio_real": 240.86,
+        "precio_predicho": 235.92,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-12",
+        "precio_real": 272.38,
+        "precio_predicho": 236.68,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-13",
+        "precio_real": 268.16,
+        "precio_predicho": 239.69,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-14",
+        "precio_real": 289.57,
+        "precio_predicho": 243.85,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-15",
+        "precio_real": 282.45,
+        "precio_predicho": 249.86,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-16",
+        "precio_real": 291.02,
+        "precio_predicho": 256.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-17",
+        "precio_real": 298.62,
+        "precio_predicho": 263.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-18",
+        "precio_real": 296.94,
+        "precio_predicho": 270.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-19",
+        "precio_real": 295.72,
+        "precio_predicho": 278.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-20",
+        "precio_real": 291.88,
+        "precio_predicho": 284.59,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-21",
+        "precio_real": 286.75,
+        "precio_predicho": 289.99,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-22",
+        "precio_real": 273.0,
+        "precio_predicho": 293.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-23",
+        "precio_real": 269.06,
+        "precio_predicho": 295.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-24",
+        "precio_real": 260.79,
+        "precio_predicho": 296.04,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-25",
+        "precio_real": 258.6,
+        "precio_predicho": 294.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-26",
+        "precio_real": 263.46,
+        "precio_predicho": 291.45,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-27",
+        "precio_real": 254.66,
+        "precio_predicho": 288.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-28",
+        "precio_real": 274.97,
+        "precio_predicho": 284.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-29",
+        "precio_real": 290.13,
+        "precio_predicho": 281.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-03-30",
+        "precio_real": 299.27,
+        "precio_predicho": 280.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-03-31",
+        "precio_real": 310.2,
+        "precio_predicho": 280.93,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-01",
+        "precio_real": 306.02,
+        "precio_predicho": 283.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-02",
+        "precio_real": 295.28,
+        "precio_predicho": 287.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-03",
+        "precio_real": 287.98,
+        "precio_predicho": 290.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-04",
+        "precio_real": 285.05,
+        "precio_predicho": 293.59,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-05",
+        "precio_real": 286.69,
+        "precio_predicho": 295.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-06",
+        "precio_real": 291.5,
+        "precio_predicho": 296.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-07",
+        "precio_real": 285.54,
+        "precio_predicho": 297.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-08",
+        "precio_real": 281.17,
+        "precio_predicho": 297.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-09",
+        "precio_real": 280.96,
+        "precio_predicho": 297.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-10",
+        "precio_real": 305.53,
+        "precio_predicho": 296.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-11",
+        "precio_real": 316.95,
+        "precio_predicho": 296.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-12",
+        "precio_real": 320.41,
+        "precio_predicho": 298.51,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-13",
+        "precio_real": 312.59,
+        "precio_predicho": 301.6,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-14",
+        "precio_real": 305.56,
+        "precio_predicho": 304.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-15",
+        "precio_real": 308.42,
+        "precio_predicho": 307.63,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-16",
+        "precio_real": 310.26,
+        "precio_predicho": 310.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-17",
+        "precio_real": 320.01,
+        "precio_predicho": 312.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-18",
+        "precio_real": 315.18,
+        "precio_predicho": 314.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-19",
+        "precio_real": 320.34,
+        "precio_predicho": 316.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-20",
+        "precio_real": 317.83,
+        "precio_predicho": 318.85,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-04-21",
+        "precio_real": 290.41,
+        "precio_predicho": 320.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-22",
+        "precio_real": 290.71,
+        "precio_predicho": 320.61,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-23",
+        "precio_real": 288.3,
+        "precio_predicho": 319.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-24",
+        "precio_real": 288.19,
+        "precio_predicho": 316.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-25",
+        "precio_real": 297.96,
+        "precio_predicho": 313.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-26",
+        "precio_real": 297.75,
+        "precio_predicho": 310.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-27",
+        "precio_real": 294.96,
+        "precio_predicho": 308.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-28",
+        "precio_real": 284.17,
+        "precio_predicho": 306.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-29",
+        "precio_real": 276.88,
+        "precio_predicho": 304.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-04-30",
+        "precio_real": 291.12,
+        "precio_predicho": 301.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-01",
+        "precio_real": 294.88,
+        "precio_predicho": 298.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-02",
+        "precio_real": 294.95,
+        "precio_predicho": 297.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-03",
+        "precio_real": 309.41,
+        "precio_predicho": 296.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-04",
+        "precio_real": 309.7,
+        "precio_predicho": 297.33,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-05",
+        "precio_real": 315.55,
+        "precio_predicho": 298.93,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-06",
+        "precio_real": 315.17,
+        "precio_predicho": 301.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-07",
+        "precio_real": 327.54,
+        "precio_predicho": 304.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-08",
+        "precio_real": 327.26,
+        "precio_predicho": 308.42,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-09",
+        "precio_real": 330.13,
+        "precio_predicho": 312.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-10",
+        "precio_real": 332.82,
+        "precio_predicho": 317.28,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-11",
+        "precio_real": 326.22,
+        "precio_predicho": 321.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-12",
+        "precio_real": 326.33,
+        "precio_predicho": 325.74,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-05-13",
+        "precio_real": 315.78,
+        "precio_predicho": 328.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-14",
+        "precio_real": 342.5,
+        "precio_predicho": 330.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-15",
+        "precio_real": 357.42,
+        "precio_predicho": 333.3,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-16",
+        "precio_real": 363.83,
+        "precio_predicho": 337.01,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-17",
+        "precio_real": 367.96,
+        "precio_predicho": 341.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-18",
+        "precio_real": 364.87,
+        "precio_predicho": 347.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-19",
+        "precio_real": 360.77,
+        "precio_predicho": 352.65,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-20",
+        "precio_real": 353.11,
+        "precio_predicho": 357.49,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-05-21",
+        "precio_real": 353.86,
+        "precio_predicho": 361.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-22",
+        "precio_real": 361.99,
+        "precio_predicho": 363.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-23",
+        "precio_real": 366.89,
+        "precio_predicho": 365.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-24",
+        "precio_real": 365.9,
+        "precio_predicho": 368.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-25",
+        "precio_real": 361.48,
+        "precio_predicho": 369.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-26",
+        "precio_real": 362.95,
+        "precio_predicho": 371.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-27",
+        "precio_real": 366.83,
+        "precio_predicho": 372.13,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-28",
+        "precio_real": 362.5,
+        "precio_predicho": 372.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-29",
+        "precio_real": 347.36,
+        "precio_predicho": 373.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-30",
+        "precio_real": 358.57,
+        "precio_predicho": 372.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-05-31",
+        "precio_real": 359.96,
+        "precio_predicho": 371.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-01",
+        "precio_real": 361.42,
+        "precio_predicho": 370.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-02",
+        "precio_real": 350.71,
+        "precio_predicho": 369.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-03",
+        "precio_real": 347.96,
+        "precio_predicho": 368.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-04",
+        "precio_real": 337.5,
+        "precio_predicho": 366.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-05",
+        "precio_real": 334.88,
+        "precio_predicho": 364.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-06",
+        "precio_real": 323.65,
+        "precio_predicho": 361.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-07",
+        "precio_real": 317.15,
+        "precio_predicho": 357.0,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-08",
+        "precio_real": 323.03,
+        "precio_predicho": 352.02,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-09",
+        "precio_real": 322.13,
+        "precio_predicho": 347.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-10",
+        "precio_real": 313.48,
+        "precio_predicho": 342.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-11",
+        "precio_real": 311.88,
+        "precio_predicho": 337.98,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-12",
+        "precio_real": 315.18,
+        "precio_predicho": 333.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-13",
+        "precio_real": 312.03,
+        "precio_predicho": 329.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-14",
+        "precio_real": 308.47,
+        "precio_predicho": 326.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-15",
+        "precio_real": 311.79,
+        "precio_predicho": 323.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-16",
+        "precio_real": 297.78,
+        "precio_predicho": 320.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-17",
+        "precio_real": 292.76,
+        "precio_predicho": 317.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-18",
+        "precio_real": 293.51,
+        "precio_predicho": 314.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-19",
+        "precio_real": 294.94,
+        "precio_predicho": 311.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-20",
+        "precio_real": 303.79,
+        "precio_predicho": 308.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-21",
+        "precio_real": 310.06,
+        "precio_predicho": 306.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-22",
+        "precio_real": 303.5,
+        "precio_predicho": 306.05,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-06-23",
+        "precio_real": 305.13,
+        "precio_predicho": 305.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-24",
+        "precio_real": 305.79,
+        "precio_predicho": 305.8,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-06-25",
+        "precio_real": 293.9,
+        "precio_predicho": 306.25,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-06-26",
+        "precio_real": 320.37,
+        "precio_predicho": 306.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-06-27",
+        "precio_real": 328.39,
+        "precio_predicho": 307.38,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-06-28",
+        "precio_real": 327.66,
+        "precio_predicho": 309.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-06-29",
+        "precio_real": 323.52,
+        "precio_predicho": 313.17,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-06-30",
+        "precio_real": 332.03,
+        "precio_predicho": 316.5,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-01",
+        "precio_real": 338.43,
+        "precio_predicho": 320.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-02",
+        "precio_real": 345.48,
+        "precio_predicho": 324.36,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-03",
+        "precio_real": 348.28,
+        "precio_predicho": 329.02,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-04",
+        "precio_real": 346.75,
+        "precio_predicho": 333.93,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-05",
+        "precio_real": 342.35,
+        "precio_predicho": 338.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-06",
+        "precio_real": 339.33,
+        "precio_predicho": 342.61,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-07-07",
+        "precio_real": 338.99,
+        "precio_predicho": 345.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-08",
+        "precio_real": 338.21,
+        "precio_predicho": 347.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-09",
+        "precio_real": 331.03,
+        "precio_predicho": 349.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-10",
+        "precio_real": 346.19,
+        "precio_predicho": 349.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-11",
+        "precio_real": 338.63,
+        "precio_predicho": 350.07,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-12",
+        "precio_real": 332.72,
+        "precio_predicho": 350.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-13",
+        "precio_real": 333.7,
+        "precio_predicho": 349.63,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-14",
+        "precio_real": 323.12,
+        "precio_predicho": 348.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-15",
+        "precio_real": 325.35,
+        "precio_predicho": 346.96,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-16",
+        "precio_real": 327.98,
+        "precio_predicho": 344.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-17",
+        "precio_real": 329.02,
+        "precio_predicho": 342.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-18",
+        "precio_real": 322.55,
+        "precio_predicho": 340.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-19",
+        "precio_real": 321.15,
+        "precio_predicho": 338.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-20",
+        "precio_real": 325.85,
+        "precio_predicho": 336.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-21",
+        "precio_real": 329.93,
+        "precio_predicho": 335.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-22",
+        "precio_real": 324.12,
+        "precio_predicho": 334.04,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-23",
+        "precio_real": 317.55,
+        "precio_predicho": 333.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-24",
+        "precio_real": 319.3,
+        "precio_predicho": 331.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-25",
+        "precio_real": 320.78,
+        "precio_predicho": 330.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-26",
+        "precio_real": 322.76,
+        "precio_predicho": 329.63,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-27",
+        "precio_real": 331.21,
+        "precio_predicho": 328.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-07-28",
+        "precio_real": 332.14,
+        "precio_predicho": 328.92,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-29",
+        "precio_real": 335.42,
+        "precio_predicho": 329.56,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-30",
+        "precio_real": 344.76,
+        "precio_predicho": 330.8,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-07-31",
+        "precio_real": 339.89,
+        "precio_predicho": 332.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-01",
+        "precio_real": 335.89,
+        "precio_predicho": 335.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-02",
+        "precio_real": 333.75,
+        "precio_predicho": 337.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-03",
+        "precio_real": 339.96,
+        "precio_predicho": 339.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-04",
+        "precio_real": 371.29,
+        "precio_predicho": 340.84,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-08-05",
+        "precio_real": 365.36,
+        "precio_predicho": 344.38,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-06",
+        "precio_real": 363.01,
+        "precio_predicho": 348.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-07",
+        "precio_real": 355.99,
+        "precio_predicho": 352.98,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-08",
+        "precio_real": 364.85,
+        "precio_predicho": 356.7,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-08-09",
+        "precio_real": 359.0,
+        "precio_predicho": 360.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-10",
+        "precio_real": 378.88,
+        "precio_predicho": 363.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-11",
+        "precio_real": 392.98,
+        "precio_predicho": 366.79,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-12",
+        "precio_real": 395.23,
+        "precio_predicho": 371.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-13",
+        "precio_real": 403.13,
+        "precio_predicho": 376.75,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-14",
+        "precio_real": 400.47,
+        "precio_predicho": 382.69,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-15",
+        "precio_real": 403.54,
+        "precio_predicho": 388.54,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-16",
+        "precio_real": 399.29,
+        "precio_predicho": 394.17,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-17",
+        "precio_real": 399.77,
+        "precio_predicho": 399.01,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-08-18",
+        "precio_real": 409.37,
+        "precio_predicho": 403.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-19",
+        "precio_real": 420.02,
+        "precio_predicho": 406.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-20",
+        "precio_real": 423.97,
+        "precio_predicho": 410.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-21",
+        "precio_real": 435.73,
+        "precio_predicho": 415.28,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-22",
+        "precio_real": 440.86,
+        "precio_predicho": 420.26,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-23",
+        "precio_real": 445.27,
+        "precio_predicho": 425.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-24",
+        "precio_real": 431.96,
+        "precio_predicho": 431.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-08-25",
+        "precio_real": 434.7,
+        "precio_predicho": 436.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-26",
+        "precio_real": 424.45,
+        "precio_predicho": 439.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-27",
+        "precio_real": 422.48,
+        "precio_predicho": 442.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-28",
+        "precio_real": 424.02,
+        "precio_predicho": 443.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-29",
+        "precio_real": 415.94,
+        "precio_predicho": 443.23,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-30",
+        "precio_real": 417.08,
+        "precio_predicho": 442.08,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-08-31",
+        "precio_real": 429.84,
+        "precio_predicho": 440.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-01",
+        "precio_real": 428.24,
+        "precio_predicho": 438.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-02",
+        "precio_real": 440.49,
+        "precio_predicho": 437.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-03",
+        "precio_real": 441.44,
+        "precio_predicho": 437.83,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-04",
+        "precio_real": 445.9,
+        "precio_predicho": 438.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-05",
+        "precio_real": 438.84,
+        "precio_predicho": 440.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-06",
+        "precio_real": 438.1,
+        "precio_predicho": 441.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-07",
+        "precio_real": 441.71,
+        "precio_predicho": 443.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-08",
+        "precio_real": 440.21,
+        "precio_predicho": 444.85,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-09",
+        "precio_real": 444.05,
+        "precio_predicho": 446.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-10",
+        "precio_real": 450.38,
+        "precio_predicho": 447.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-11",
+        "precio_real": 441.91,
+        "precio_predicho": 449.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-12",
+        "precio_real": 450.05,
+        "precio_predicho": 450.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-13",
+        "precio_real": 474.8,
+        "precio_predicho": 451.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-14",
+        "precio_real": 477.59,
+        "precio_predicho": 455.04,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-15",
+        "precio_real": 437.42,
+        "precio_predicho": 459.3,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-16",
+        "precio_real": 427.5,
+        "precio_predicho": 461.39,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-17",
+        "precio_real": 428.37,
+        "precio_predicho": 461.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-18",
+        "precio_real": 427.7,
+        "precio_predicho": 459.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-19",
+        "precio_real": 422.67,
+        "precio_predicho": 456.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-20",
+        "precio_real": 413.17,
+        "precio_predicho": 453.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-21",
+        "precio_real": 425.78,
+        "precio_predicho": 448.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-22",
+        "precio_real": 438.97,
+        "precio_predicho": 444.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-23",
+        "precio_real": 438.62,
+        "precio_predicho": 441.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-24",
+        "precio_real": 429.7,
+        "precio_predicho": 440.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-25",
+        "precio_real": 431.0,
+        "precio_predicho": 438.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-26",
+        "precio_real": 431.6,
+        "precio_predicho": 437.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-27",
+        "precio_real": 440.76,
+        "precio_predicho": 437.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-09-28",
+        "precio_real": 438.3,
+        "precio_predicho": 437.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-09-29",
+        "precio_real": 428.9,
+        "precio_predicho": 438.5,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-09-30",
+        "precio_real": 429.98,
+        "precio_predicho": 438.93,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-01",
+        "precio_real": 421.66,
+        "precio_predicho": 439.16,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-02",
+        "precio_real": 427.78,
+        "precio_predicho": 438.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-03",
+        "precio_real": 423.7,
+        "precio_predicho": 438.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-04",
+        "precio_real": 415.45,
+        "precio_predicho": 437.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-05",
+        "precio_real": 403.0,
+        "precio_predicho": 435.82,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-06",
+        "precio_real": 404.53,
+        "precio_predicho": 433.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-07",
+        "precio_real": 408.29,
+        "precio_predicho": 429.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-08",
+        "precio_real": 413.17,
+        "precio_predicho": 426.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-09",
+        "precio_real": 427.55,
+        "precio_predicho": 424.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-10",
+        "precio_real": 406.93,
+        "precio_predicho": 422.94,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-11",
+        "precio_real": 416.03,
+        "precio_predicho": 421.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-12",
+        "precio_real": 418.06,
+        "precio_predicho": 420.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-13",
+        "precio_real": 429.99,
+        "precio_predicho": 420.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-14",
+        "precio_real": 434.67,
+        "precio_predicho": 421.47,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-15",
+        "precio_real": 433.68,
+        "precio_predicho": 423.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-16",
+        "precio_real": 439.88,
+        "precio_predicho": 426.06,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-17",
+        "precio_real": 448.68,
+        "precio_predicho": 429.29,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-18",
+        "precio_real": 445.76,
+        "precio_predicho": 433.35,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-19",
+        "precio_real": 443.14,
+        "precio_predicho": 437.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-20",
+        "precio_real": 442.8,
+        "precio_predicho": 441.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-10-21",
+        "precio_real": 445.36,
+        "precio_predicho": 444.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-22",
+        "precio_real": 434.69,
+        "precio_predicho": 447.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-23",
+        "precio_real": 412.24,
+        "precio_predicho": 449.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-24",
+        "precio_real": 400.49,
+        "precio_predicho": 448.87,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-25",
+        "precio_real": 396.94,
+        "precio_predicho": 445.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-26",
+        "precio_real": 394.4,
+        "precio_predicho": 441.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-27",
+        "precio_real": 396.2,
+        "precio_predicho": 435.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-28",
+        "precio_real": 386.3,
+        "precio_predicho": 429.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-29",
+        "precio_real": 384.15,
+        "precio_predicho": 422.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-30",
+        "precio_real": 379.81,
+        "precio_predicho": 415.87,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-10-31",
+        "precio_real": 384.8,
+        "precio_predicho": 409.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-01",
+        "precio_real": 379.25,
+        "precio_predicho": 403.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-02",
+        "precio_real": 377.59,
+        "precio_predicho": 398.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-03",
+        "precio_real": 376.36,
+        "precio_predicho": 394.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-04",
+        "precio_real": 377.6,
+        "precio_predicho": 390.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-05",
+        "precio_real": 380.33,
+        "precio_predicho": 387.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-06",
+        "precio_real": 376.75,
+        "precio_predicho": 385.07,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-07",
+        "precio_real": 376.9,
+        "precio_predicho": 383.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-08",
+        "precio_real": 372.59,
+        "precio_predicho": 382.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-09",
+        "precio_real": 381.51,
+        "precio_predicho": 381.23,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-10",
+        "precio_real": 385.95,
+        "precio_predicho": 380.95,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-11-11",
+        "precio_real": 373.32,
+        "precio_predicho": 381.5,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-12",
+        "precio_real": 365.93,
+        "precio_predicho": 381.77,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-13",
+        "precio_real": 361.2,
+        "precio_predicho": 381.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-14",
+        "precio_real": 355.68,
+        "precio_predicho": 380.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-15",
+        "precio_real": 360.82,
+        "precio_predicho": 378.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-16",
+        "precio_real": 355.72,
+        "precio_predicho": 376.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-17",
+        "precio_real": 346.19,
+        "precio_predicho": 373.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-18",
+        "precio_real": 401.77,
+        "precio_predicho": 371.04,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-19",
+        "precio_real": 400.96,
+        "precio_predicho": 371.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-20",
+        "precio_real": 406.84,
+        "precio_predicho": 373.97,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-21",
+        "precio_real": 413.73,
+        "precio_predicho": 378.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-22",
+        "precio_real": 411.25,
+        "precio_predicho": 384.16,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-23",
+        "precio_real": 403.54,
+        "precio_predicho": 390.47,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-24",
+        "precio_real": 397.87,
+        "precio_predicho": 396.24,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-25",
+        "precio_real": 410.08,
+        "precio_predicho": 400.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-11-26",
+        "precio_real": 411.69,
+        "precio_predicho": 405.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-27",
+        "precio_real": 420.19,
+        "precio_predicho": 409.34,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-28",
+        "precio_real": 424.71,
+        "precio_predicho": 413.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-29",
+        "precio_real": 432.36,
+        "precio_predicho": 417.59,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-11-30",
+        "precio_real": 434.74,
+        "precio_predicho": 422.05,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-01",
+        "precio_real": 434.61,
+        "precio_predicho": 426.59,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-02",
+        "precio_real": 436.65,
+        "precio_predicho": 430.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-03",
+        "precio_real": 435.15,
+        "precio_predicho": 434.92,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-04",
+        "precio_real": 447.24,
+        "precio_predicho": 438.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-05",
+        "precio_real": 444.62,
+        "precio_predicho": 442.0,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-06",
+        "precio_real": 448.65,
+        "precio_predicho": 445.34,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-12-07",
+        "precio_real": 461.94,
+        "precio_predicho": 448.54,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-12-08",
+        "precio_real": 466.95,
+        "precio_predicho": 452.32,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-09",
+        "precio_real": 465.91,
+        "precio_predicho": 456.58,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-10",
+        "precio_real": 474.47,
+        "precio_predicho": 460.83,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-11",
+        "precio_real": 474.95,
+        "precio_predicho": 465.38,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-12",
+        "precio_real": 478.0,
+        "precio_predicho": 469.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-13",
+        "precio_real": 479.56,
+        "precio_predicho": 474.24,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-14",
+        "precio_real": 479.17,
+        "precio_predicho": 478.33,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-15",
+        "precio_real": 479.0,
+        "precio_predicho": 481.93,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-16",
+        "precio_real": 477.19,
+        "precio_predicho": 484.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-17",
+        "precio_real": 473.97,
+        "precio_predicho": 487.21,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-18",
+        "precio_real": 465.74,
+        "precio_predicho": 488.59,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-19",
+        "precio_real": 453.9,
+        "precio_predicho": 488.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-20",
+        "precio_real": 455.15,
+        "precio_predicho": 487.07,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-21",
+        "precio_real": 446.73,
+        "precio_predicho": 484.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-22",
+        "precio_real": 452.0,
+        "precio_predicho": 480.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-23",
+        "precio_real": 453.76,
+        "precio_predicho": 476.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-24",
+        "precio_real": 459.89,
+        "precio_predicho": 473.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-25",
+        "precio_real": 463.0,
+        "precio_predicho": 470.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-26",
+        "precio_real": 479.98,
+        "precio_predicho": 468.28,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2027-12-27",
+        "precio_real": 469.83,
+        "precio_predicho": 468.27,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-28",
+        "precio_real": 472.06,
+        "precio_predicho": 468.9,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2027-12-29",
+        "precio_real": 486.12,
+        "precio_predicho": 470.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-30",
+        "precio_real": 495.02,
+        "precio_predicho": 472.59,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2027-12-31",
+        "precio_real": 489.27,
+        "precio_predicho": 476.39,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-01",
+        "precio_real": 491.61,
+        "precio_predicho": 480.47,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-02",
+        "precio_real": 486.76,
+        "precio_predicho": 484.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-03",
+        "precio_real": 491.19,
+        "precio_predicho": 488.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-04",
+        "precio_real": 491.79,
+        "precio_predicho": 491.7,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-01-05",
+        "precio_real": 490.51,
+        "precio_predicho": 494.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-06",
+        "precio_real": 486.88,
+        "precio_predicho": 497.11,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-07",
+        "precio_real": 468.5,
+        "precio_predicho": 498.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-08",
+        "precio_real": 470.26,
+        "precio_predicho": 498.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-09",
+        "precio_real": 474.67,
+        "precio_predicho": 497.0,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-10",
+        "precio_real": 474.06,
+        "precio_predicho": 495.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-11",
+        "precio_real": 485.03,
+        "precio_predicho": 492.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-12",
+        "precio_real": 482.09,
+        "precio_predicho": 491.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-13",
+        "precio_real": 478.33,
+        "precio_predicho": 490.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-14",
+        "precio_real": 492.23,
+        "precio_predicho": 489.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-15",
+        "precio_real": 492.16,
+        "precio_predicho": 489.63,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-16",
+        "precio_real": 481.24,
+        "precio_predicho": 490.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-17",
+        "precio_real": 480.33,
+        "precio_predicho": 490.96,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-18",
+        "precio_real": 485.31,
+        "precio_predicho": 491.2,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-19",
+        "precio_real": 482.95,
+        "precio_predicho": 491.55,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-20",
+        "precio_real": 485.71,
+        "precio_predicho": 491.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-21",
+        "precio_real": 492.19,
+        "precio_predicho": 492.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-22",
+        "precio_real": 544.87,
+        "precio_predicho": 492.94,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-01-23",
+        "precio_real": 562.0,
+        "precio_predicho": 497.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-24",
+        "precio_real": 570.42,
+        "precio_predicho": 505.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-25",
+        "precio_real": 575.79,
+        "precio_predicho": 516.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-26",
+        "precio_real": 562.85,
+        "precio_predicho": 529.0,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-27",
+        "precio_real": 564.11,
+        "precio_predicho": 540.65,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-28",
+        "precio_real": 567.51,
+        "precio_predicho": 551.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-29",
+        "precio_real": 564.64,
+        "precio_predicho": 560.53,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-01-30",
+        "precio_real": 562.06,
+        "precio_predicho": 568.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-01-31",
+        "precio_real": 555.88,
+        "precio_predicho": 573.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-01",
+        "precio_real": 559.3,
+        "precio_predicho": 577.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-02",
+        "precio_real": 558.53,
+        "precio_predicho": 579.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-03",
+        "precio_real": 561.32,
+        "precio_predicho": 580.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-04",
+        "precio_real": 557.85,
+        "precio_predicho": 580.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-05",
+        "precio_real": 554.52,
+        "precio_predicho": 579.85,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-06",
+        "precio_real": 579.33,
+        "precio_predicho": 578.34,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-07",
+        "precio_real": 593.46,
+        "precio_predicho": 578.16,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-08",
+        "precio_real": 583.95,
+        "precio_predicho": 579.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-09",
+        "precio_real": 575.13,
+        "precio_predicho": 582.0,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-10",
+        "precio_real": 573.35,
+        "precio_predicho": 583.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-11",
+        "precio_real": 588.47,
+        "precio_predicho": 584.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-12",
+        "precio_real": 583.56,
+        "precio_predicho": 586.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-13",
+        "precio_real": 587.65,
+        "precio_predicho": 588.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-14",
+        "precio_real": 601.67,
+        "precio_predicho": 590.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-15",
+        "precio_real": 596.48,
+        "precio_predicho": 593.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-16",
+        "precio_real": 602.92,
+        "precio_predicho": 595.96,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-02-17",
+        "precio_real": 619.34,
+        "precio_predicho": 599.14,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-18",
+        "precio_real": 615.83,
+        "precio_predicho": 603.51,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-19",
+        "precio_real": 598.5,
+        "precio_predicho": 608.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-02-20",
+        "precio_real": 597.69,
+        "precio_predicho": 611.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-21",
+        "precio_real": 608.51,
+        "precio_predicho": 613.34,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-22",
+        "precio_real": 604.82,
+        "precio_predicho": 615.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-23",
+        "precio_real": 600.93,
+        "precio_predicho": 616.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-24",
+        "precio_real": 611.08,
+        "precio_predicho": 616.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-25",
+        "precio_real": 609.45,
+        "precio_predicho": 617.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-26",
+        "precio_real": 613.01,
+        "precio_predicho": 618.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-27",
+        "precio_real": 605.88,
+        "precio_predicho": 618.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-28",
+        "precio_real": 618.39,
+        "precio_predicho": 618.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-02-29",
+        "precio_real": 620.74,
+        "precio_predicho": 619.76,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-01",
+        "precio_real": 627.69,
+        "precio_predicho": 621.05,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-03-02",
+        "precio_real": 622.71,
+        "precio_predicho": 623.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-03-03",
+        "precio_real": 628.01,
+        "precio_predicho": 625.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-04",
+        "precio_real": 627.46,
+        "precio_predicho": 627.39,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-03-05",
+        "precio_real": 629.24,
+        "precio_predicho": 629.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-06",
+        "precio_real": 613.53,
+        "precio_predicho": 631.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-07",
+        "precio_real": 607.33,
+        "precio_predicho": 632.7,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-08",
+        "precio_real": 614.31,
+        "precio_predicho": 632.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-09",
+        "precio_real": 614.21,
+        "precio_predicho": 631.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-10",
+        "precio_real": 630.08,
+        "precio_predicho": 629.9,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-11",
+        "precio_real": 617.14,
+        "precio_predicho": 629.66,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-03-12",
+        "precio_real": 636.18,
+        "precio_predicho": 629.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-13",
+        "precio_real": 628.41,
+        "precio_predicho": 629.97,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-03-14",
+        "precio_real": 618.2,
+        "precio_predicho": 630.98,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-15",
+        "precio_real": 618.58,
+        "precio_predicho": 631.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-16",
+        "precio_real": 628.78,
+        "precio_predicho": 631.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-17",
+        "precio_real": 622.83,
+        "precio_predicho": 631.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-18",
+        "precio_real": 607.15,
+        "precio_predicho": 631.96,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-19",
+        "precio_real": 617.52,
+        "precio_predicho": 630.9,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-20",
+        "precio_real": 613.69,
+        "precio_predicho": 629.83,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-21",
+        "precio_real": 610.56,
+        "precio_predicho": 628.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-22",
+        "precio_real": 555.04,
+        "precio_predicho": 626.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-23",
+        "precio_real": 554.6,
+        "precio_predicho": 621.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-24",
+        "precio_real": 577.75,
+        "precio_predicho": 612.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-25",
+        "precio_real": 555.12,
+        "precio_predicho": 605.24,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-26",
+        "precio_real": 564.8,
+        "precio_predicho": 596.78,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-27",
+        "precio_real": 561.23,
+        "precio_predicho": 589.1,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-28",
+        "precio_real": 559.49,
+        "precio_predicho": 582.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-29",
+        "precio_real": 550.64,
+        "precio_predicho": 576.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-30",
+        "precio_real": 551.71,
+        "precio_predicho": 570.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-03-31",
+        "precio_real": 565.15,
+        "precio_predicho": 565.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-01",
+        "precio_real": 579.34,
+        "precio_predicho": 562.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-02",
+        "precio_real": 596.97,
+        "precio_predicho": 562.04,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-03",
+        "precio_real": 606.0,
+        "precio_predicho": 564.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-04",
+        "precio_real": 609.47,
+        "precio_predicho": 569.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-05",
+        "precio_real": 612.09,
+        "precio_predicho": 576.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-06",
+        "precio_real": 610.87,
+        "precio_predicho": 583.93,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-07",
+        "precio_real": 616.59,
+        "precio_predicho": 591.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-08",
+        "precio_real": 613.66,
+        "precio_predicho": 599.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-09",
+        "precio_real": 613.52,
+        "precio_predicho": 606.7,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-10",
+        "precio_real": 610.52,
+        "precio_predicho": 612.82,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-04-11",
+        "precio_real": 621.1,
+        "precio_predicho": 617.64,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-12",
+        "precio_real": 640.82,
+        "precio_predicho": 621.99,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-04-13",
+        "precio_real": 650.61,
+        "precio_predicho": 627.14,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-14",
+        "precio_real": 640.47,
+        "precio_predicho": 633.16,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-15",
+        "precio_real": 635.67,
+        "precio_predicho": 638.63,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-04-16",
+        "precio_real": 646.75,
+        "precio_predicho": 643.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-17",
+        "precio_real": 649.0,
+        "precio_predicho": 647.2,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-04-18",
+        "precio_real": 654.62,
+        "precio_predicho": 651.05,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-19",
+        "precio_real": 647.66,
+        "precio_predicho": 654.79,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-04-20",
+        "precio_real": 641.62,
+        "precio_predicho": 657.67,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-21",
+        "precio_real": 633.79,
+        "precio_predicho": 659.31,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-22",
+        "precio_real": 631.62,
+        "precio_predicho": 659.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-23",
+        "precio_real": 650.27,
+        "precio_predicho": 658.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-24",
+        "precio_real": 648.52,
+        "precio_predicho": 657.6,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-25",
+        "precio_real": 641.47,
+        "precio_predicho": 657.19,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-26",
+        "precio_real": 644.5,
+        "precio_predicho": 656.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-27",
+        "precio_real": 648.55,
+        "precio_predicho": 655.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-28",
+        "precio_real": 650.06,
+        "precio_predicho": 655.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-29",
+        "precio_real": 653.26,
+        "precio_predicho": 655.33,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-04-30",
+        "precio_real": 669.38,
+        "precio_predicho": 655.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-01",
+        "precio_real": 675.83,
+        "precio_predicho": 657.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-05-02",
+        "precio_real": 685.67,
+        "precio_predicho": 660.95,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-05-03",
+        "precio_real": 679.03,
+        "precio_predicho": 665.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-05-04",
+        "precio_real": 686.12,
+        "precio_predicho": 670.42,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-05-05",
+        "precio_real": 669.02,
+        "precio_predicho": 675.58,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-05-06",
+        "precio_real": 672.41,
+        "precio_predicho": 679.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-07",
+        "precio_real": 677.69,
+        "precio_predicho": 682.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-08",
+        "precio_real": 684.34,
+        "precio_predicho": 684.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-09",
+        "precio_real": 674.88,
+        "precio_predicho": 686.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-10",
+        "precio_real": 673.61,
+        "precio_predicho": 688.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-11",
+        "precio_real": 679.58,
+        "precio_predicho": 688.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-12",
+        "precio_real": 682.51,
+        "precio_predicho": 689.06,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-13",
+        "precio_real": 690.65,
+        "precio_predicho": 689.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-14",
+        "precio_real": 685.74,
+        "precio_predicho": 690.54,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-05-15",
+        "precio_real": 685.74,
+        "precio_predicho": 691.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-16",
+        "precio_real": 677.65,
+        "precio_predicho": 692.36,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-17",
+        "precio_real": 652.75,
+        "precio_predicho": 692.48,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-18",
+        "precio_real": 647.6,
+        "precio_predicho": 690.22,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-19",
+        "precio_real": 656.45,
+        "precio_predicho": 686.15,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-20",
+        "precio_real": 656.32,
+        "precio_predicho": 681.74,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-21",
+        "precio_real": 647.46,
+        "precio_predicho": 677.32,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-22",
+        "precio_real": 643.04,
+        "precio_predicho": 672.53,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-23",
+        "precio_real": 633.34,
+        "precio_predicho": 667.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-24",
+        "precio_real": 647.5,
+        "precio_predicho": 661.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-25",
+        "precio_real": 642.76,
+        "precio_predicho": 657.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-26",
+        "precio_real": 635.99,
+        "precio_predicho": 653.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-27",
+        "precio_real": 634.09,
+        "precio_predicho": 650.14,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-28",
+        "precio_real": 631.37,
+        "precio_predicho": 646.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-29",
+        "precio_real": 626.96,
+        "precio_predicho": 643.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-30",
+        "precio_real": 622.58,
+        "precio_predicho": 640.9,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-05-31",
+        "precio_real": 628.35,
+        "precio_predicho": 637.9,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-01",
+        "precio_real": 624.85,
+        "precio_predicho": 635.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-02",
+        "precio_real": 613.64,
+        "precio_predicho": 633.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-03",
+        "precio_real": 598.55,
+        "precio_predicho": 630.93,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-04",
+        "precio_real": 609.57,
+        "precio_predicho": 627.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-05",
+        "precio_real": 611.48,
+        "precio_predicho": 623.85,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-06",
+        "precio_real": 630.35,
+        "precio_predicho": 620.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-07",
+        "precio_real": 633.94,
+        "precio_predicho": 620.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-08",
+        "precio_real": 633.14,
+        "precio_predicho": 620.81,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-09",
+        "precio_real": 648.02,
+        "precio_predicho": 622.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-10",
+        "precio_real": 661.68,
+        "precio_predicho": 626.16,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-11",
+        "precio_real": 663.22,
+        "precio_predicho": 631.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-12",
+        "precio_real": 674.07,
+        "precio_predicho": 638.26,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-13",
+        "precio_real": 688.53,
+        "precio_predicho": 646.01,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-14",
+        "precio_real": 698.54,
+        "precio_predicho": 655.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-15",
+        "precio_real": 697.12,
+        "precio_predicho": 665.24,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-16",
+        "precio_real": 688.96,
+        "precio_predicho": 675.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-17",
+        "precio_real": 686.73,
+        "precio_predicho": 684.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-06-18",
+        "precio_real": 688.44,
+        "precio_predicho": 691.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-19",
+        "precio_real": 695.72,
+        "precio_predicho": 696.77,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-20",
+        "precio_real": 683.84,
+        "precio_predicho": 701.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-21",
+        "precio_real": 692.48,
+        "precio_predicho": 704.19,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-22",
+        "precio_real": 701.35,
+        "precio_predicho": 706.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-23",
+        "precio_real": 675.32,
+        "precio_predicho": 707.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-24",
+        "precio_real": 679.68,
+        "precio_predicho": 707.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-25",
+        "precio_real": 683.62,
+        "precio_predicho": 705.98,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-26",
+        "precio_real": 665.77,
+        "precio_predicho": 704.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-27",
+        "precio_real": 675.42,
+        "precio_predicho": 700.48,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-28",
+        "precio_real": 673.62,
+        "precio_predicho": 696.88,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-29",
+        "precio_real": 681.47,
+        "precio_predicho": 693.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-06-30",
+        "precio_real": 686.8,
+        "precio_predicho": 690.45,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-01",
+        "precio_real": 697.06,
+        "precio_predicho": 688.75,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-02",
+        "precio_real": 696.5,
+        "precio_predicho": 688.69,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-03",
+        "precio_real": 706.91,
+        "precio_predicho": 689.69,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-04",
+        "precio_real": 690.47,
+        "precio_predicho": 692.15,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-05",
+        "precio_real": 704.32,
+        "precio_predicho": 694.19,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-06",
+        "precio_real": 701.03,
+        "precio_predicho": 696.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-07",
+        "precio_real": 705.37,
+        "precio_predicho": 699.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-08",
+        "precio_real": 722.26,
+        "precio_predicho": 702.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-09",
+        "precio_real": 721.56,
+        "precio_predicho": 706.46,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-10",
+        "precio_real": 711.43,
+        "precio_predicho": 710.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-11",
+        "precio_real": 707.35,
+        "precio_predicho": 714.55,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-12",
+        "precio_real": 709.27,
+        "precio_predicho": 717.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-13",
+        "precio_real": 706.13,
+        "precio_predicho": 719.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-14",
+        "precio_real": 711.09,
+        "precio_predicho": 719.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-15",
+        "precio_real": 706.8,
+        "precio_predicho": 720.58,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-16",
+        "precio_real": 719.7,
+        "precio_predicho": 720.56,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-17",
+        "precio_real": 701.92,
+        "precio_predicho": 721.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-18",
+        "precio_real": 721.76,
+        "precio_predicho": 720.54,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-19",
+        "precio_real": 727.43,
+        "precio_predicho": 720.87,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-07-20",
+        "precio_real": 730.29,
+        "precio_predicho": 722.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-21",
+        "precio_real": 722.79,
+        "precio_predicho": 724.08,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-22",
+        "precio_real": 713.0,
+        "precio_predicho": 725.87,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-23",
+        "precio_real": 705.98,
+        "precio_predicho": 726.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-24",
+        "precio_real": 702.0,
+        "precio_predicho": 726.26,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-25",
+        "precio_real": 687.65,
+        "precio_predicho": 724.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-26",
+        "precio_real": 763.89,
+        "precio_predicho": 721.38,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-07-27",
+        "precio_real": 772.07,
+        "precio_predicho": 722.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-28",
+        "precio_real": 764.24,
+        "precio_predicho": 727.89,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-29",
+        "precio_real": 749.29,
+        "precio_predicho": 734.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-30",
+        "precio_real": 754.55,
+        "precio_predicho": 740.64,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-07-31",
+        "precio_real": 754.68,
+        "precio_predicho": 746.55,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-01",
+        "precio_real": 749.12,
+        "precio_predicho": 751.85,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-02",
+        "precio_real": 759.44,
+        "precio_predicho": 755.91,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-03",
+        "precio_real": 753.74,
+        "precio_predicho": 759.64,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-08-04",
+        "precio_real": 756.03,
+        "precio_predicho": 762.37,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-05",
+        "precio_real": 756.1,
+        "precio_predicho": 764.41,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-06",
+        "precio_real": 755.51,
+        "precio_predicho": 765.81,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-07",
+        "precio_real": 763.91,
+        "precio_predicho": 766.59,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-08",
+        "precio_real": 780.21,
+        "precio_predicho": 767.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-09",
+        "precio_real": 796.54,
+        "precio_predicho": 769.68,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-10",
+        "precio_real": 795.04,
+        "precio_predicho": 773.73,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-11",
+        "precio_real": 805.44,
+        "precio_predicho": 778.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-12",
+        "precio_real": 819.5,
+        "precio_predicho": 784.59,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-13",
+        "precio_real": 830.47,
+        "precio_predicho": 791.92,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-14",
+        "precio_real": 837.26,
+        "precio_predicho": 800.48,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-15",
+        "precio_real": 823.96,
+        "precio_predicho": 809.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-16",
+        "precio_real": 847.05,
+        "precio_predicho": 817.87,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-17",
+        "precio_real": 871.32,
+        "precio_predicho": 826.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-18",
+        "precio_real": 883.85,
+        "precio_predicho": 836.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-19",
+        "precio_real": 897.48,
+        "precio_predicho": 847.65,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-20",
+        "precio_real": 897.79,
+        "precio_predicho": 859.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-21",
+        "precio_real": 865.59,
+        "precio_predicho": 871.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-22",
+        "precio_real": 872.6,
+        "precio_predicho": 880.49,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-23",
+        "precio_real": 877.34,
+        "precio_predicho": 886.65,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-24",
+        "precio_real": 886.81,
+        "precio_predicho": 890.98,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-25",
+        "precio_real": 897.74,
+        "precio_predicho": 894.39,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-08-26",
+        "precio_real": 902.17,
+        "precio_predicho": 897.67,
+        "senal": "MANTENER"
+    },
+    {
+        "fecha": "2028-08-27",
+        "precio_real": 911.06,
+        "precio_predicho": 900.86,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-28",
+        "precio_real": 917.87,
+        "precio_predicho": 904.41,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-29",
+        "precio_real": 934.74,
+        "precio_predicho": 908.39,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-30",
+        "precio_real": 913.69,
+        "precio_predicho": 913.65,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-08-31",
+        "precio_real": 913.35,
+        "precio_predicho": 917.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-01",
+        "precio_real": 936.56,
+        "precio_predicho": 920.46,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-02",
+        "precio_real": 925.55,
+        "precio_predicho": 924.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-03",
+        "precio_real": 918.87,
+        "precio_predicho": 927.01,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-04",
+        "precio_real": 921.08,
+        "precio_predicho": 928.66,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-05",
+        "precio_real": 919.13,
+        "precio_predicho": 929.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-06",
+        "precio_real": 889.55,
+        "precio_predicho": 929.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-07",
+        "precio_real": 902.04,
+        "precio_predicho": 926.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-08",
+        "precio_real": 909.05,
+        "precio_predicho": 922.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-09",
+        "precio_real": 911.45,
+        "precio_predicho": 919.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-10",
+        "precio_real": 932.12,
+        "precio_predicho": 916.18,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-11",
+        "precio_real": 924.14,
+        "precio_predicho": 915.26,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-12",
+        "precio_real": 907.55,
+        "precio_predicho": 915.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-13",
+        "precio_real": 900.43,
+        "precio_predicho": 914.25,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-14",
+        "precio_real": 891.32,
+        "precio_predicho": 912.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-15",
+        "precio_real": 886.73,
+        "precio_predicho": 909.47,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-16",
+        "precio_real": 881.05,
+        "precio_predicho": 905.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-17",
+        "precio_real": 881.79,
+        "precio_predicho": 900.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-18",
+        "precio_real": 879.19,
+        "precio_predicho": 895.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-19",
+        "precio_real": 875.0,
+        "precio_predicho": 890.73,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-20",
+        "precio_real": 837.69,
+        "precio_predicho": 885.79,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-21",
+        "precio_real": 840.29,
+        "precio_predicho": 878.29,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-22",
+        "precio_real": 828.4,
+        "precio_predicho": 869.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-23",
+        "precio_real": 848.26,
+        "precio_predicho": 860.69,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-24",
+        "precio_real": 842.37,
+        "precio_predicho": 853.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-25",
+        "precio_real": 858.1,
+        "precio_predicho": 846.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-09-26",
+        "precio_real": 869.68,
+        "precio_predicho": 842.37,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-27",
+        "precio_real": 953.99,
+        "precio_predicho": 841.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-28",
+        "precio_real": 984.86,
+        "precio_predicho": 848.71,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-29",
+        "precio_real": 977.59,
+        "precio_predicho": 863.82,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-09-30",
+        "precio_real": 971.89,
+        "precio_predicho": 882.56,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-01",
+        "precio_real": 971.83,
+        "precio_predicho": 902.25,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-02",
+        "precio_real": 978.15,
+        "precio_predicho": 921.31,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-03",
+        "precio_real": 973.24,
+        "precio_predicho": 939.11,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-04",
+        "precio_real": 976.76,
+        "precio_predicho": 954.36,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-05",
+        "precio_real": 978.94,
+        "precio_predicho": 967.06,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-06",
+        "precio_real": 994.87,
+        "precio_predicho": 977.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-07",
+        "precio_real": 1011.11,
+        "precio_predicho": 986.11,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-08",
+        "precio_real": 1015.68,
+        "precio_predicho": 994.68,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-09",
+        "precio_real": 1013.93,
+        "precio_predicho": 1002.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-10",
+        "precio_real": 1027.6,
+        "precio_predicho": 1009.35,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-11",
+        "precio_real": 1008.08,
+        "precio_predicho": 1015.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-12",
+        "precio_real": 1027.31,
+        "precio_predicho": 1019.95,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-13",
+        "precio_real": 1043.69,
+        "precio_predicho": 1023.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-14",
+        "precio_real": 1058.6,
+        "precio_predicho": 1028.19,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-15",
+        "precio_real": 1035.85,
+        "precio_predicho": 1033.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-16",
+        "precio_real": 1043.33,
+        "precio_predicho": 1037.72,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-17",
+        "precio_real": 1024.54,
+        "precio_predicho": 1041.01,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-18",
+        "precio_real": 1003.15,
+        "precio_predicho": 1041.94,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-19",
+        "precio_real": 988.47,
+        "precio_predicho": 1039.52,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-20",
+        "precio_real": 977.24,
+        "precio_predicho": 1033.84,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-21",
+        "precio_real": 990.06,
+        "precio_predicho": 1025.4,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-22",
+        "precio_real": 963.07,
+        "precio_predicho": 1016.68,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-23",
+        "precio_real": 980.56,
+        "precio_predicho": 1006.03,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-24",
+        "precio_real": 973.7,
+        "precio_predicho": 996.35,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-25",
+        "precio_real": 972.58,
+        "precio_predicho": 987.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-26",
+        "precio_real": 990.92,
+        "precio_predicho": 979.17,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-27",
+        "precio_real": 906.36,
+        "precio_predicho": 973.78,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-10-28",
+        "precio_real": 891.11,
+        "precio_predicho": 963.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-29",
+        "precio_real": 866.68,
+        "precio_predicho": 950.5,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-30",
+        "precio_real": 895.1,
+        "precio_predicho": 934.13,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-10-31",
+        "precio_real": 919.68,
+        "precio_predicho": 919.12,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-01",
+        "precio_real": 890.17,
+        "precio_predicho": 907.83,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-02",
+        "precio_real": 918.0,
+        "precio_predicho": 897.44,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-03",
+        "precio_real": 950.02,
+        "precio_predicho": 890.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-04",
+        "precio_real": 929.98,
+        "precio_predicho": 889.84,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-05",
+        "precio_real": 959.49,
+        "precio_predicho": 891.0,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-06",
+        "precio_real": 950.84,
+        "precio_predicho": 896.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-07",
+        "precio_real": 960.29,
+        "precio_predicho": 903.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-08",
+        "precio_real": 971.99,
+        "precio_predicho": 911.52,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-09",
+        "precio_real": 997.28,
+        "precio_predicho": 921.42,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-10",
+        "precio_real": 970.65,
+        "precio_predicho": 933.66,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-11",
+        "precio_real": 976.72,
+        "precio_predicho": 944.45,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-12",
+        "precio_real": 933.85,
+        "precio_predicho": 954.2,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-13",
+        "precio_real": 932.53,
+        "precio_predicho": 959.09,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-14",
+        "precio_real": 928.38,
+        "precio_predicho": 960.43,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-15",
+        "precio_real": 935.52,
+        "precio_predicho": 958.87,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-16",
+        "precio_real": 917.05,
+        "precio_predicho": 955.97,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-17",
+        "precio_real": 855.86,
+        "precio_predicho": 950.8,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-18",
+        "precio_real": 867.83,
+        "precio_predicho": 939.62,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-19",
+        "precio_real": 870.4,
+        "precio_predicho": 926.39,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-20",
+        "precio_real": 945.47,
+        "precio_predicho": 912.71,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-11-21",
+        "precio_real": 921.17,
+        "precio_predicho": 905.6,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-22",
+        "precio_real": 918.29,
+        "precio_predicho": 901.11,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-23",
+        "precio_real": 931.28,
+        "precio_predicho": 898.76,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-24",
+        "precio_real": 976.28,
+        "precio_predicho": 899.13,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-25",
+        "precio_real": 961.63,
+        "precio_predicho": 904.9,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-26",
+        "precio_real": 973.03,
+        "precio_predicho": 912.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-27",
+        "precio_real": 987.91,
+        "precio_predicho": 922.21,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-28",
+        "precio_real": 1040.34,
+        "precio_predicho": 933.62,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-29",
+        "precio_real": 1049.59,
+        "precio_predicho": 949.61,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-11-30",
+        "precio_real": 1096.87,
+        "precio_predicho": 968.12,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-01",
+        "precio_real": 1101.53,
+        "precio_predicho": 990.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-02",
+        "precio_real": 1110.38,
+        "precio_predicho": 1015.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-03",
+        "precio_real": 1125.64,
+        "precio_predicho": 1039.35,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-04",
+        "precio_real": 1131.72,
+        "precio_predicho": 1063.07,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-05",
+        "precio_real": 1133.47,
+        "precio_predicho": 1085.1,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-06",
+        "precio_real": 1156.49,
+        "precio_predicho": 1104.43,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-07",
+        "precio_real": 1134.06,
+        "precio_predicho": 1122.32,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-08",
+        "precio_real": 1137.69,
+        "precio_predicho": 1135.86,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-09",
+        "precio_real": 1155.41,
+        "precio_predicho": 1145.82,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-10",
+        "precio_real": 1144.43,
+        "precio_predicho": 1153.91,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-11",
+        "precio_real": 1140.22,
+        "precio_predicho": 1158.98,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-12",
+        "precio_real": 1110.0,
+        "precio_predicho": 1161.27,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-13",
+        "precio_real": 1138.44,
+        "precio_predicho": 1158.92,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-14",
+        "precio_real": 1150.99,
+        "precio_predicho": 1155.99,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-15",
+        "precio_real": 1177.98,
+        "precio_predicho": 1153.51,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-16",
+        "precio_real": 1191.53,
+        "precio_predicho": 1153.5,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-17",
+        "precio_real": 1191.64,
+        "precio_predicho": 1155.96,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-18",
+        "precio_real": 1192.02,
+        "precio_predicho": 1159.77,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-19",
+        "precio_real": 1194.63,
+        "precio_predicho": 1164.22,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-20",
+        "precio_real": 1187.97,
+        "precio_predicho": 1168.94,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-21",
+        "precio_real": 1185.39,
+        "precio_predicho": 1172.88,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-22",
+        "precio_real": 1211.57,
+        "precio_predicho": 1175.81,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-23",
+        "precio_real": 1208.55,
+        "precio_predicho": 1179.92,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-24",
+        "precio_real": 1184.86,
+        "precio_predicho": 1184.02,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-25",
+        "precio_real": 1207.23,
+        "precio_predicho": 1185.89,
+        "senal": "COMPRAR"
+    },
+    {
+        "fecha": "2028-12-26",
+        "precio_real": 1218.98,
+        "precio_predicho": 1188.09,
+        "senal": "VENDER"
+    },
+    {
+        "fecha": "2028-12-27",
+        "precio_real": 1217.94,
+        "precio_predicho": 1191.06,
         "senal": "VENDER"
     }
 ]

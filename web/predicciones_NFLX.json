@@ -1,0 +1,62 @@
+[
+    {
+        "dia": "Día 1",
+        "precio_real": 921.0800170898438,
+        "precio_predicho": 916.3643798828125,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 2",
+        "precio_real": 919.1300048828125,
+        "precio_predicho": 917.4354858398438,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 3",
+        "precio_real": 889.5499877929688,
+        "precio_predicho": 917.7743530273438,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 4",
+        "precio_real": 902.0399780273438,
+        "precio_predicho": 915.4422607421875,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 5",
+        "precio_real": 909.0499877929689,
+        "precio_predicho": 912.5618286132812,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 6",
+        "precio_real": 911.4500122070312,
+        "precio_predicho": 909.8457641601562,
+        "senal": "MANTENER"
+    },
+    {
+        "dia": "Día 7",
+        "precio_real": 932.1199951171875,
+        "precio_predicho": 907.4824829101562,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 8",
+        "precio_real": 924.1400146484376,
+        "precio_predicho": 906.9490356445312,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 9",
+        "precio_real": 907.5499877929688,
+        "precio_predicho": 906.9201049804688,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 10",
+        "precio_real": 900.4299926757812,
+        "precio_predicho": 906.1015014648438,
+        "senal": "VENDER"
+    }
+]

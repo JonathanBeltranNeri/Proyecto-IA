@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predicción de Acciones - LSTM</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: white;
+      background-color: #0f172a;
+      overflow-x: hidden;
+    }
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .gradient-title {
+      background: linear-gradient(90deg, #3b82f6, #06b6d4);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+    .custom-select {
+      background-color: #1f2937;
+      color: white;
+      border: 1px solid #374151;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      margin-top: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: box-shadow 0.3s ease;
+    }
+    .custom-select:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body class="p-6">
+  <div id="particles-js"></div>
+
+  <header class="text-center mb-10">
+    <div class="flex items-center justify-center gap-3">
+      <i data-lucide="line-chart" class="w-8 h-8 text-orange-400"></i>
+      <h1 class="text-4xl font-extrabold tracking-wide gradient-title">Predicción Bursátil con LSTM</h1>
+    </div>
+    <p class="text-gray-300 mt-2">Visualiza precios reales, predicciones y señales inteligentes</p>
+
+    <div class="mt-6">
+      <label for="empresaSelect" class="block text-sm font-semibold text-gray-400">Selecciona una empresa:</label>
+      <select id="empresaSelect" class="custom-select">
+        <option value="AAPL">Apple (AAPL)</option>
+        <option value="TSLA">Tesla (TSLA)</option>
+        <option value="MSFT">Microsoft (MSFT)</option>
+        <option value="NVDA">NVIDIA (NVDA)</option>
+        <option value="GOOGL">Google (GOOGL)</option>
+        <option value="AMZN">Amazon (AMZN)</option>
+        <option value="META">Meta (META)</option>
+        <option value="NFLX">Netflix (NFLX)</option>
+        <option value="INTC">Intel (INTC)</option>
+        <option value="AMD">AMD (AMD)</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto">
+    <section class="bg-white rounded-2xl p-6 mb-10 shadow-xl text-gray-900">
+      <div class="mb-4 flex items-center gap-4 text-sm font-semibold">
+        <div class="flex items-center gap-1"><span>🔵</span><span>Precio Real</span></div>
+        <div class="flex items-center gap-1"><span>🟠</span><span>Precio Predicho</span></div>
+      </div>
+      <canvas id="graficaPrediccion"></canvas>
+    </section>
+
+    <section class="bg-white rounded-2xl p-6 shadow-xl text-gray-900">
+      <h2 class="text-2xl font-bold mb-4">Señales Generadas</h2>
+      <div class="overflow-x-auto">
+        <table class="table-auto w-full border-collapse">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="px-4 py-2">#</th>
+              <th class="px-4 py-2">Precio Real</th>
+              <th class="px-4 py-2">Precio Predicho</th>
+              <th class="px-4 py-2">Señal</th>
+            </tr>
+          </thead>
+          <tbody id="tablaSenales">
+            <!-- Se llena con JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    lucide.createIcons();
+
+    const select = document.getElementById('empresaSelect');
+    const ctx = document.getElementById('graficaPrediccion').getContext('2d');
+    let chart;
+
+    function cargarDatos(empresa) {
+      fetch(`predicciones_${empresa}.json`)
+        .then(res => res.json())
+        .then(data => {
+          const labels = data.map(d => d.dia);
+          const preciosReales = data.map(d => d.precio_real);
+          const predichos = data.map(d => d.precio_predicho);
+          const senales = data.map(d => d.senal);
+
+          if (chart) chart.destroy();
+
+          chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: labels,
+              datasets: [
+                {
+                  label: 'Precio Real',
+                  data: preciosReales,
+                  borderColor: 'rgb(59, 130, 246)',
+                  fill: false,
+                  tension: 0.3
+                },
+                {
+                  label: 'Precio Predicho',
+                  data: predichos,
+                  borderColor: 'rgb(234, 88, 12)',
+                  fill: false,
+                  tension: 0.3
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              scales: {
+                y: { beginAtZero: false }
+              },
+              plugins: {
+                legend: {
+                  display: false
+                }
+              }
+            }
+          });
+
+          const tbody = document.getElementById('tablaSenales');
+          tbody.innerHTML = '';
+          data.forEach((d, i) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+              <td class="border px-4 py-2">${i + 1}</td>
+              <td class="border px-4 py-2">${d.precio_real.toFixed(2)}</td>
+              <td class="border px-4 py-2">${d.precio_predicho.toFixed(2)}</td>
+              <td class="border px-4 py-2 font-bold ${d.senal === 'COMPRAR' ? 'text-green-600' : d.senal === 'VENDER' ? 'text-red-600' : 'text-gray-700'}">${d.senal}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+        });
+    }
+
+    select.addEventListener('change', e => cargarDatos(e.target.value));
+    cargarDatos(select.value);
+
+    tsParticles.load("particles-js", {
+      background: { color: "#0f172a" },
+      fpsLimit: 60,
+      interactivity: { detectsOn: "canvas" },
+      particles: {
+        color: { value: "#ffffff" },
+        number: { value: 120, density: { enable: true, area: 800 } },
+        opacity: { value: 0.5 },
+        size: { value: 1.5 },
+        move: { enable: true, speed: 0.3 }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+    {
+        "dia": "Día 1",
+        "precio_real": 126.69000244140624,
+        "precio_predicho": 132.0818634033203,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 2",
+        "precio_real": 125.0199966430664,
+        "precio_predicho": 130.2992706298828,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 3",
+        "precio_real": 121.41000366210938,
+        "precio_predicho": 128.51206970214844,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 4",
+        "precio_real": 118.87999725341797,
+        "precio_predicho": 126.57259368896484,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 5",
+        "precio_real": 119.20999908447266,
+        "precio_predicho": 124.49565124511719,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 6",
+        "precio_real": 124.5999984741211,
+        "precio_predicho": 122.52750396728516,
+        "senal": "COMPRAR"
+    },
+    {
+        "dia": "Día 7",
+        "precio_real": 126.29000091552734,
+        "precio_predicho": 121.22332000732422,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 8",
+        "precio_real": 125.05999755859374,
+        "precio_predicho": 120.5854721069336,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 9",
+        "precio_real": 125.19000244140626,
+        "precio_predicho": 120.361328125,
+        "senal": "VENDER"
+    },
+    {
+        "dia": "Día 10",
+        "precio_real": 122.44000244140624,
+        "precio_predicho": 120.47290802001953,
+        "senal": "VENDER"
+    }
+]

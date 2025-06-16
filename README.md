@@ -1,75 +1,96 @@
-# Proyecto-IA
-# 📈 Predicción Bursátil con LSTM
+Proyecto-IA
+📈 Predicción Bursátil con LSTM
 
-Este proyecto utiliza un modelo LSTM (Long Short-Term Memory) para predecir precios de acciones de diferentes empresas tecnológicas y generar señales de compra, venta o mantener.
+Este proyecto utiliza un modelo LSTM (Long Short-Term Memory) para predecir los precios de acciones de diferentes empresas tecnológicas y generar señales de compra, venta o mantener.
+🧠 ¿Qué hace?
 
-## 🧠 ¿Qué hace?
+    Descarga datos históricos de precios (Close) de 10 empresas desde Yahoo Finance.
 
-- Descarga datos históricos de precios (`Close`) de 10 empresas desde Yahoo Finance
-- Entrena un modelo LSTM por empresa
-- Genera predicciones de precios y señales de decisión
-- Exporta los resultados en archivos JSON individuales
-- Muestra todo en una página web moderna e interactiva
+    Entrena un modelo LSTM de forma individual para cada empresa.
 
-## 🏗 Estructura del proyecto
+    Genera predicciones de precios y señales de decisión.
 
-```
+    Exporta los resultados en archivos .json por empresa.
+
+    Visualiza los resultados en una página web moderna e interactiva.
+
+🏗 Estructura del proyecto
+
 Proyecto-IA/
-├── main.py                    # Script de entrenamiento y predicción
+├── main.py                    # Script de entrenamiento y predicción (ya no se utiliza)
 ├── datos_empresas/           # Archivos CSV descargados por empresa
 ├── web/
-│   ├── index.html            # Interfaz visual de resultados
-│   ├── predicciones_*.json  # Archivos JSON por empresa (AAPL, TSLA, etc.)
-```
+│   ├── index.html            # Interfaz visual con gráfico y tabla de señales
+│   ├── predicciones_*.json  # Archivos JSON generados por empresa (AAPL, TSLA, etc.)
 
-## 🚀 Cómo ejecutar
+🚀 Cómo ejecutar
 
-1. Instala dependencias:
-```bash
+    Instala las dependencias:
+
 pip install yfinance pandas numpy scikit-learn tensorflow
-```
 
-2. Ejecuta el modelo:
-```bash
+    Ejecuta el modelo de predicción:
+
 python3.10 main.py
-```
 
-3. Lanza la interfaz web:
-```bash
+    Lanza el servidor web:
+
 cd web
 python3.10 -m http.server 8000
-```
 
-4. Abre en el navegador:
-```
+    Abre en el navegador:
+
 http://localhost:8000
-```
 
-## 📊 Empresas analizadas
+📊 Empresas analizadas
 
-- AAPL (Apple)
-- TSLA (Tesla)
-- MSFT (Microsoft)
-- NVDA (NVIDIA)
-- GOOGL (Google)
-- AMZN (Amazon)
-- META (Meta)
-- NFLX (Netflix)
-- INTC (Intel)
-- AMD (AMD)
+    AAPL (Apple)
 
-## ✨ Características visuales
+    TSLA (Tesla)
 
-- Selector dinámico de empresa
-- Gráfica con colores personalizados
-- Leyenda moderna con emojis
-- Fondo animado tipo Flow Icons
-- Estilo minimalista con Tailwind CSS
+    MSFT (Microsoft)
 
-## 📌 Estado actual
+    NVDA (NVIDIA)
 
-✅ Funcional  
-🚧 Mejoras pendientes: optimización del modelo, métricas de rendimiento, predicción multivariable
+    GOOGL (Google)
 
----
-Desarrollado por Jonathan Beltran Neri 22310188 CETI
+    AMZN (Amazon)
+
+    META (Meta)
+
+    NFLX (Netflix)
+
+    INTC (Intel)
+
+    AMD (AMD)
+
+✨ Características visuales
+
+    Selector dinámico de empresa
+
+    Gráfica de precios con diseño elegante y colores personalizados
+
+    Tabla de señales con colores modernos
+
+    Fondo animado estilo Flow Icons
+
+    Diseño minimalista con Tailwind CSS y tipografía moderna
+
+📌 Estado actual
+
+✅ Funcional y visualmente atractivo
+🚧 Mejoras pendientes:
+
+    Optimización del modelo LSTM
+
+    Evaluación con métricas (RMSE, MAE)
+
+    Predicción multivariable (Open, High, Volume, etc.)
+
+🌐 Proyecto en línea
+
+Puedes ver la versión en línea del proyecto aquí:
+🔗 https://proyecto-ia-jonathanbeltranneris-projects.vercel.app/
+
+Desarrollado por: Jonathan Beltrán Neri
+Centro de Enseñanza Técnica Industrial (CETI)
